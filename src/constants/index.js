@@ -16,11 +16,21 @@ import {
   cSharp,
   git,
   docker,
+  school,
+  ofppt,
+  fsac,
+  sericome,
+  maxmind,
+  amdd,
 } from "../assets"
 
 export const fullName = ["Mazouz", "Ayoub"]
+export const emailAddress = "ayoub2000mazouz@gmail.com"
 
 export const heroSection = "I develop 3d User interfaces and web applications"
+
+export const aboutSection = `I'm Ayoub, a proficient software developer who ventured into programming independently driven by a profound love for computers. A rapid learner who thrives with minimal supervision, I enjoy pushing my boundaries by tackling diverse challenges, ranging from crafting high-performance web applications to exploring the intricacies of transistors. Feel free to reach out – I'm always open to new opportunities and collaborations.
+`
 
 export const navLinks = [
   {
@@ -43,15 +53,15 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "JavaScript Master",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Software Engineer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "System Administrator",
     icon: creator,
   },
 ]
@@ -113,55 +123,72 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    // icon: starbucks,
+    title: "Bachelor's degree in Life and Earth Sciences (SVT)",
+    company_name: "Qadi Ayad, Casablanca",
+    icon: school,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "2019 - 2020",
+    points: [],
+  },
+  {
+    title: "Specialized Technician in IT Infrastructure",
+    company_name: "ISFO (OFPPT), Casablanca",
+    icon: ofppt,
+    iconBg: "#383E56",
+    date: "2021 - 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Administration of Linux/Windows servers and virtual machines.",
+      "Learning the fundamentals of programming with Python.",
+      "Create and administrate cloud infrastructure with Openstack and Asur.",
+      "Create and administrate Network infrastructure with Cisco.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    // icon: tesla,
+    title: "Internship: Fullstack Developer",
+    company_name: "Sirecom",
+    icon: sericome,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    date: "Jui - Août 2022",
+    points: ["Creating and maintaining web applications using Laravel and other related technologies."],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    // icon: shopify,
+    title: "Internship: Software Developer",
+    company_name: "Maxmind",
+    icon: maxmind,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Avr - Nov 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Creating web applications using React, Laravel, Svelte and other related technologies.",
+      "Creating automation scripts using Python.",
+      "Creating browser extensions using JavaScript and Svelte.",
+      "Scraping data from single page application using Puppeteer.",
+      "Consuming graphql APIs to create Modules for a CRM.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    // icon: meta,
+    title: "Licence professionnelle en développement informatique",
+    company_name: "l'université des sciences hassan II, Casablanca",
+    icon: fsac,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Learning Java, C# and there perspective web frameworks.",
+      "Deep dive into sql databases and how to use them at scale.",
+      "Learning UML and creating diagrams for practice.",
+      "Creating highly scalable web applications using previously known technologies.",
+      "etc...",
+    ],
+  },
+  {
+    title: "Fullstack Developer",
+    company_name: "AMDD",
+    icon: amdd,
+    iconBg: "#E6DEDD",
+    date: "Nov 2023 - à présent",
+    points: [
+      "Creating and maintaining the new OFPPT platform using Laravel, React and other related technologies.",
+      "Structure Project to be scalable and maintainable.",
+      "Create highly optimized algorithms to solve complex problems.",
     ],
   },
 ]

@@ -21,6 +21,13 @@ import php from "./tech/php.png"
 import cSharp from "./tech/cSharp.png"
 import mysql from "./tech/mysql.png"
 
+import school from "./exp/school.png"
+import ofppt from "./exp/ofppt.jpg"
+import fsac from "./exp/fsac.jpeg"
+import sericome from "./exp/sericome.jpeg"
+import maxmind from "./exp/maxmind.png"
+import amdd from "./exp/amdd.png"
+
 export {
   logo,
   backend,
@@ -43,4 +50,10 @@ export {
   reactjs,
   tailwind,
   typescript,
+  school,
+  ofppt,
+  fsac,
+  sericome,
+  maxmind,
+  amdd,
 }
