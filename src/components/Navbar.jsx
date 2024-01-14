@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react"
-import { Link } from "react-router-dom"
+import { motion } from "framer-motion"
 
 import { styles } from "../styles"
-import { fullName, navLinks } from "../constants"
-import { logo, menu, close } from "../assets"
+import { fullName, githubURL, linkedinURL, navLinks } from "../constants"
+import { logo, menu, close, github, linkedin } from "../assets"
 
 const Navbar = () => {
   const [active, setActive] = useState("")
@@ -32,22 +32,53 @@ const Navbar = () => {
       }`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
-        <Link
-          to="/"
-          className="flex items-center gap-2"
-          onClick={() => {
-            setActive("")
-            window.scrollTo(0, 0)
-          }}
-        >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex ">
-            {fullName[0]} &nbsp;
-            <span className="sm:block hidden"> | {fullName[1]}</span>
-          </p>
-        </Link>
+        <div className="flex items-center gap-6">
+          <button
+            className="flex items-center gap-2"
+            onClick={() => {
+              setActive("")
+              window.scrollTo(0, 0)
+            }}
+          >
+            <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+            <p className="text-white text-[18px] font-bold cursor-pointer flex ">
+              {fullName[0]} &nbsp;
+              <span className="sm:block hidden"> | {fullName[1]}</span>
+            </p>
+          </button>
+          <div className="flex gap-2">
+            <motion.button
+              onClick={() => {
+                window.open(githubURL, "_blank")
+              }}
+              whileHover={{
+                scale: 0.9,
+                opacity: 0.75,
+                transition: { duration: 0.3 },
+              }}
+              whileTap={{ scale: 0.8 }}
+              className="rounded-lg hover:bg-white/10 p-2 font-semibold"
+            >
+              <img src={github} alt="github" className="w-8 h-8 object-contain" />
+            </motion.button>
+            <motion.button
+              onClick={() => {
+                window.open(linkedinURL, "_blank")
+              }}
+              whileHover={{
+                scale: 0.9,
+                opacity: 0.75,
+                transition: { duration: 0.3 },
+              }}
+              whileTap={{ scale: 0.8 }}
+              className="rounded-lg hover:bg-white/10 p-2 font-semibold"
+            >
+              <img src={linkedin} alt="github" className="w-8 h-8 object-contain" />
+            </motion.button>
+          </div>
+        </div>
 
-        <ul className="list-none hidden sm:flex flex-row gap-10">
+        <ul className="list-none hidden items-center sm:flex flex-row gap-10">
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -59,6 +90,21 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <li>
+            <motion.a
+              href="MazouzAyoub.pdf"
+              download
+              whileHover={{
+                scale: 0.9,
+                opacity: 0.75,
+                transition: { duration: 0.3 },
+              }}
+              whileTap={{ scale: 0.8 }}
+              className="rounded-lg bg-[#915EFF] hover:bg-transparent hover:border-2 hover:border-[#915EFF] py-1.5 px-6 tracking-widest"
+            >
+              RESUME
+            </motion.a>
+          </li>
         </ul>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">

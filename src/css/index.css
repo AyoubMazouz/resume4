@@ -206,3 +206,7 @@
 .overflow-hidden {
   overflow: hidden;
 }
+
+.model-w {
+  width: clamp(50%, 90%, 1200px);
+}
