@@ -29,6 +29,7 @@ export const githubURL = "https://github.com/ayoubmazouz"
 
 export const fullName = ["Mazouz", "Ayoub"]
 export const emailAddress = "ayoub2000mazouz@gmail.com"
+export const phoneNumber = "07 70 75 91 06"
 
 export const heroSection = "I develop 3d User interfaces and web applications"
 
