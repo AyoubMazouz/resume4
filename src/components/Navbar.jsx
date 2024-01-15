@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import { styles } from "../styles"
 import { fullName, githubURL, linkedinURL, navLinks } from "../constants"
 import { logo, menu, close, github, linkedin } from "../assets"
+import { Icon } from "@iconify/react"
 
 const Navbar = () => {
   const [active, setActive] = useState("")
@@ -59,7 +60,7 @@ const Navbar = () => {
               whileTap={{ scale: 0.8 }}
               className="rounded-lg hover:bg-white/10 p-2 font-semibold"
             >
-              <img src={github} alt="github" className="w-8 h-8 object-contain" />
+              <Icon icon="eva:github-fill" width="32" className="text-white" />
             </motion.button>
             <motion.button
               onClick={() => {
@@ -73,7 +74,7 @@ const Navbar = () => {
               whileTap={{ scale: 0.8 }}
               className="rounded-lg hover:bg-white/10 p-2 font-semibold"
             >
-              <img src={linkedin} alt="github" className="w-8 h-8 object-contain" />
+              <Icon icon="pajamas:linkedin" width="32" className="text-white" />
             </motion.button>
           </div>
         </div>
