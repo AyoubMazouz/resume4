@@ -26,7 +26,7 @@ const ProjectCard = ({ id, name, description, technologies, repoURL, demoURL }) 
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full  h-[460px] text-left "
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full h-[460px] text-left"
       >
         <div className="relative w-full h-[230px]">
           <img

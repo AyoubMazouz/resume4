@@ -44,7 +44,7 @@ const Navbar = () => {
             <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
             <p className="text-white text-[18px] font-bold cursor-pointer flex ">
               {fullName[0]} &nbsp;
-              <span className="sm:block hidden"> | {fullName[1]}</span>
+              <span className="lg:block hidden"> | {fullName[1]}</span>
             </p>
           </button>
           <div className="flex gap-2">
@@ -79,7 +79,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <ul className="list-none hidden items-center sm:flex flex-row gap-10">
+        <ul className="list-none hidden items-center lg:flex flex-row gap-10">
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -108,7 +108,7 @@ const Navbar = () => {
           </li>
         </ul>
 
-        <div className="sm:hidden flex flex-1 justify-end items-center">
+        <div className="lg:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
             alt="menu"

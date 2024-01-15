@@ -46,9 +46,9 @@ const ProjectModel = () => {
                       e.stopPropagation()
                       window.open(demoURL, "_blank")
                     }}
-                    className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:scale-110 hover:opacity-75 transition-all duration-300"
+                    className="black-gradient w-8 h-8 rounded-full flex justify-center items-center cursor-pointer hover:scale-110 hover:opacity-75 transition-all duration-300"
                   >
-                    <Icon icon="icon-park-solid:play" width="32" className="text-white" />
+                    <Icon icon="icon-park-solid:play" width="22" className="text-white" />
                   </div>
                 </div>
                 <div className="lg:hidden absolute inset-0 flex justify-end mt-3 mx-16 card-img_hover">
@@ -57,9 +57,9 @@ const ProjectModel = () => {
                       e.stopPropagation()
                       window.open(repoURL, "_blank")
                     }}
-                    className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:scale-110 hover:opacity-75 transition-all duration-300"
+                    className="black-gradient w-8 h-8 rounded-full flex justify-center items-center cursor-pointer hover:scale-110 hover:opacity-75 transition-all duration-300"
                   >
-                    <Icon icon="eva:github-fill" width="32" className="text-white" />
+                    <Icon icon="eva:github-fill" width="22" className="text-white" />
                   </div>
                 </div>
               </div>

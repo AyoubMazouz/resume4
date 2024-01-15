@@ -36,7 +36,7 @@ export default function Carousel() {
           >
             <Icon
               icon="teenyicons:right-outline"
-              width="48"
+              width="36"
               className={currImg < projects[currProject].numOfImgs - 1 ? "text-accent" : "text-secondary"}
             />
           </button>
@@ -52,7 +52,7 @@ export default function Carousel() {
           >
             <Icon
               icon="teenyicons:left-outline"
-              width="48"
+              width="36"
               className={currImg > -1 ? "text-accent" : "text-secondary"}
             />
           </button>
