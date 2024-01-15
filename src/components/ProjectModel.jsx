@@ -37,7 +37,7 @@ const ProjectModel = () => {
               }}
               whileTap={{ scale: 0.8 }}
               onClick={() => setCurrProject(null)}
-              className="absolute top-4 right-4 rounded-lg hover:bg-secondary/50 p-2 font-semibold"
+              className="absolute top-4 right-4 rounded-full p-2"
             >
               <Icon icon="icon-park-solid:close-one" width="32" className="text-secondary" />
             </motion.button>
@@ -52,27 +52,39 @@ const ProjectModel = () => {
               </div>
               <div className="relative aspect-video w-full">
                 <Carousel />
-                <div className="lg:hidden absolute inset-0 flex justify-end m-3 card-img_hover">
-                  <button
+                <div className="absolute lg:hidden inset-0 flex justify-end m-3 card-img_hover">
+                  <motion.button
+                    whileHover={{
+                      scale: 0.9,
+                      opacity: 0.75,
+                      transition: { duration: 0.3 },
+                    }}
+                    whileTap={{ scale: 0.8 }}
                     onClick={(e) => {
                       e.stopPropagation()
                       window.open(demoURL, "_blank")
                     }}
-                    className="black-gradient w-8 h-8 rounded-full flex justify-center items-center cursor-pointer hover:scale-110 hover:opacity-75 transition-all duration-300"
+                    className="absolute top-0 right-1 rounded-full p-1 black-gradient"
                   >
-                    <Icon icon="icon-park-solid:play" width="22" className="text-white" />
-                  </button>
+                    <Icon icon="icon-park-solid:play" width="32" className="text-white" />
+                  </motion.button>
                 </div>
-                <div className="lg:hidden absolute inset-0 flex justify-end mt-3 mx-16 card-img_hover">
-                  <button
+                <div className="absolute lg:hidden inset-0 flex justify-end mt-3 mx-16 card-img_hover">
+                  <motion.button
+                    whileHover={{
+                      scale: 0.9,
+                      opacity: 0.75,
+                      transition: { duration: 0.3 },
+                    }}
+                    whileTap={{ scale: 0.8 }}
+                    className="absolute top-0 right-1 rounded-full p-1 black-gradient"
                     onClick={(e) => {
                       e.stopPropagation()
                       window.open(repoURL, "_blank")
                     }}
-                    className="black-gradient w-8 h-8 rounded-full flex justify-center items-center cursor-pointer hover:scale-110 hover:opacity-75 transition-all duration-300"
                   >
-                    <Icon icon="eva:github-fill" width="22" className="text-white" />
-                  </button>
+                    <Icon icon="eva:github-fill" width="32" className="text-white" />
+                  </motion.button>
                 </div>
               </div>
               <div className="hidden lg:flex flex-col justify-between">

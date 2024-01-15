@@ -626,6 +626,14 @@ video {
   top: 1rem;
 }
 
+.right-1{
+  right: 0.25rem;
+}
+
+.top-1{
+  top: 0.25rem;
+}
+
 .z-0{
   z-index: 0;
 }
@@ -1184,6 +1192,10 @@ video {
 
 .p-\[1px\]{
   padding: 1px;
+}
+
+.p-1{
+  padding: 0.25rem;
 }
 
 .px-12{

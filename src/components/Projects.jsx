@@ -36,26 +36,38 @@ const ProjectCard = ({ id, name, description, technologies, repoURL, demoURL }) 
           />
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            <div
+            <motion.button
+              whileHover={{
+                scale: 0.9,
+                opacity: 0.75,
+                transition: { duration: 0.3 },
+              }}
+              whileTap={{ scale: 0.8 }}
               onClick={(e) => {
                 e.stopPropagation()
                 window.open(demoURL, "_blank")
               }}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:scale-110 hover:opacity-75 transition-all duration-300"
+              className="absolute top-0 right-1 rounded-full p-1 black-gradient"
             >
               <Icon icon="icon-park-solid:play" width="32" className="text-white" />
-            </div>
+            </motion.button>
           </div>
           <div className="absolute inset-0 flex justify-end mt-3 mx-16 card-img_hover">
-            <div
+            <motion.button
+              whileHover={{
+                scale: 0.9,
+                opacity: 0.75,
+                transition: { duration: 0.3 },
+              }}
+              whileTap={{ scale: 0.8 }}
+              className="absolute top-0 right-1 rounded-full p-1 black-gradient"
               onClick={(e) => {
                 e.stopPropagation()
                 window.open(repoURL, "_blank")
               }}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:scale-110 hover:opacity-75 transition-all duration-300"
             >
               <Icon icon="eva:github-fill" width="32" className="text-white" />
-            </div>
+            </motion.button>
           </div>
         </div>
 
