@@ -38,7 +38,7 @@ const ProjectModel = () => {
                   ))}
                 </div>
               </div>
-              <div className="relative aspect-video max-h-96 h-full">
+              <div className="relative aspect-video w-full">
                 <Carousel />
                 <div className="lg:hidden absolute inset-0 flex justify-end m-3 card-img_hover">
                   <div

@@ -21,8 +21,8 @@ export default function Carousel() {
   }
 
   return (
-    <div className="flex justify-center rounded-xl overflow-hidden">
-      <div className="aspect-video h-96">
+    <div className="flex w-full h-full rounded-xl overflow-hidden">
+      <div className="aspect-video">
         <div ref={ref} className="relative flex h-full items-center justify-center overflow-hidden bg-tertiary">
           <button
             whileHover={{
@@ -65,7 +65,7 @@ export default function Carousel() {
                 animate="center"
                 exit="exit"
                 custom={{ direction, width }}
-                className="absolute inset-0"
+                className="absolute inset-0 rounded-xl overflow-hidden"
               >
                 <iframe
                   title={projects[currProject].name}
@@ -73,9 +73,7 @@ export default function Carousel() {
                   width="800"
                   height="450"
                   className="w-full h-full z-10"
-                  frameborder="0"
                   allowFullScreen
-                  placeholder="loading..."
                 />
               </motion.div>
             ) : (
@@ -86,7 +84,7 @@ export default function Carousel() {
                 animate="center"
                 exit="exit"
                 custom={{ direction, width }}
-                className="absolute"
+                className="absolute rounded-xl overflow-hidden"
               >
                 <img
                   src={`/projects/${projects[currProject].name
