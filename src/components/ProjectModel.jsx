@@ -4,6 +4,7 @@ import { projects } from "../constants"
 import { useGlobalContext } from "../contexts/globalContext"
 import { colors } from "../constants"
 import { github, demo } from "../assets"
+import Carousel from "./Carousel"
 
 const ProjectModel = () => {
   const { currProject, setCurrProject } = useGlobalContext()
@@ -38,10 +39,7 @@ const ProjectModel = () => {
                 </div>
               </div>
               <div className="relative aspect-video max-h-96 h-full">
-                <img
-                  src={`/projects/${projects[currProject].name.toLowerCase().replaceAll(" ", "-")}/0-1920.jpeg`}
-                  alt=""
-                />
+                <Carousel />
                 <div className="lg:hidden absolute inset-0 flex justify-end m-3 card-img_hover">
                   <div
                     onClick={(e) => {
@@ -67,14 +65,16 @@ const ProjectModel = () => {
               </div>
               <div className="hidden lg:flex flex-col justify-between">
                 <div>
-                  <h1 className="text-2xl font-semibold">{projects[currProject].name}</h1>
-                  <div className="flex flex-wrap gap-2 mt-2">
+                  <h1 className="text-3xl font-semibold">{projects[currProject].name}</h1>
+                  <div className="flex flex-wrap gap-2 mt-2 text-lg">
                     {projects[currProject].technologies.map((tech, i) => (
-                      <span className={`${colors[i % colors.length]}`}>#{tech}</span>
+                      <span key={`${tech}${i}`} className={`${colors[i % colors.length]}`}>
+                        #{tech}
+                      </span>
                     ))}
                   </div>
                 </div>
-                <div className="flex flex-wrap gap-6">
+                <div className="flex flex-wrap gap-6 mb-6">
                   <button
                     className="font-semibold underline hover:opacity-75 transition-opacity duration-300"
                     onClick={() => window.open(projects[currProject].demoURL, "_blank")}

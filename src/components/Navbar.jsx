@@ -100,7 +100,7 @@ const Navbar = () => {
                 transition: { duration: 0.3 },
               }}
               whileTap={{ scale: 0.8 }}
-              className="rounded-lg bg-[#915EFF] hover:bg-transparent hover:border-2 hover:border-[#915EFF] py-1.5 px-6 tracking-widest"
+              className="rounded-lg bg-accent hover:bg-transparent hover:border-2 hover:border-accent py-1.5 px-6 tracking-widest"
             >
               RESUME
             </motion.a>

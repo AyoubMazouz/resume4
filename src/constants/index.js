@@ -392,4 +392,11 @@ export const projects = [
   // },
 ]
 
-export const colors = ["blue-text-gradient", "green-text-gradient", "pink-text-gradient"]
+export const colors = [
+  "text-[#3498db]",
+  "text-[#f39c12]",
+  "text-[#38a169]",
+  "text-[#61dafb]",
+  "text-[#ff6347]",
+  "text-[#af6aaf]",
+]
