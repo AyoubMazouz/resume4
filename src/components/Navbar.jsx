@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 
 import { styles } from "../styles"
 import { fullName, githubURL, linkedinURL, navLinks } from "../constants"
-import { logo, menu, close, github, linkedin } from "../assets"
+import { logo, menu, close } from "../assets"
 import { Icon } from "@iconify/react"
 
 const Navbar = () => {

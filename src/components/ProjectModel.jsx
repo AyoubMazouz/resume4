@@ -3,8 +3,8 @@ import { AnimatePresence, motion } from "framer-motion"
 import { projects } from "../constants"
 import { useGlobalContext } from "../contexts/globalContext"
 import { colors } from "../constants"
-import { github, demo } from "../assets"
 import Carousel from "./Carousel"
+import { Icon } from "@iconify/react"
 
 const ProjectModel = () => {
   const { currProject, setCurrProject } = useGlobalContext()
@@ -48,7 +48,7 @@ const ProjectModel = () => {
                     }}
                     className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:scale-110 hover:opacity-75 transition-all duration-300"
                   >
-                    <img src={demo} alt="source code" className="w-1/2 h-1/2 object-contain" />
+                    <Icon icon="icon-park-solid:play" width="32" className="text-white" />
                   </div>
                 </div>
                 <div className="lg:hidden absolute inset-0 flex justify-end mt-3 mx-16 card-img_hover">
@@ -59,7 +59,7 @@ const ProjectModel = () => {
                     }}
                     className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:scale-110 hover:opacity-75 transition-all duration-300"
                   >
-                    <img src={github} alt="source code" className="w-1/2 h-1/2 object-contain" />
+                    <Icon icon="eva:github-fill" width="32" className="text-white" />
                   </div>
                 </div>
               </div>
