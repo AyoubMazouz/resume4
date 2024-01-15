@@ -26,9 +26,21 @@ const ProjectModel = () => {
             initial={{ opacity: 0, y: "100vh", transition: { duration: 1 } }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: "-100vh" }}
-            className="model-w bg-tertiary py-12 px-6 rounded-2xl shadow-xl max-h-[90vh] overflow-y-scroll lg:overflow-y-auto"
+            className="model-w relative bg-tertiary py-12 px-6 rounded-2xl shadow-xl max-h-[90vh] overflow-y-scroll lg:overflow-y-auto"
             onClick={(e) => e.stopPropagation()}
           >
+            <motion.button
+              whileHover={{
+                scale: 0.9,
+                opacity: 0.75,
+                transition: { duration: 0.3 },
+              }}
+              whileTap={{ scale: 0.8 }}
+              onClick={() => setCurrProject(null)}
+              className="absolute top-4 right-4 rounded-lg hover:bg-secondary/50 p-2 font-semibold"
+            >
+              <Icon icon="icon-park-solid:close-one" width="32" className="text-secondary" />
+            </motion.button>
             <div className="lg:flex gap-x-6">
               <div className="lg:hidden">
                 <h1 className="text-2xl font-semibold">{projects[currProject].name}</h1>
@@ -41,7 +53,7 @@ const ProjectModel = () => {
               <div className="relative aspect-video w-full">
                 <Carousel />
                 <div className="lg:hidden absolute inset-0 flex justify-end m-3 card-img_hover">
-                  <div
+                  <button
                     onClick={(e) => {
                       e.stopPropagation()
                       window.open(demoURL, "_blank")
@@ -49,10 +61,10 @@ const ProjectModel = () => {
                     className="black-gradient w-8 h-8 rounded-full flex justify-center items-center cursor-pointer hover:scale-110 hover:opacity-75 transition-all duration-300"
                   >
                     <Icon icon="icon-park-solid:play" width="22" className="text-white" />
-                  </div>
+                  </button>
                 </div>
                 <div className="lg:hidden absolute inset-0 flex justify-end mt-3 mx-16 card-img_hover">
-                  <div
+                  <button
                     onClick={(e) => {
                       e.stopPropagation()
                       window.open(repoURL, "_blank")
@@ -60,7 +72,7 @@ const ProjectModel = () => {
                     className="black-gradient w-8 h-8 rounded-full flex justify-center items-center cursor-pointer hover:scale-110 hover:opacity-75 transition-all duration-300"
                   >
                     <Icon icon="eva:github-fill" width="22" className="text-white" />
-                  </div>
+                  </button>
                 </div>
               </div>
               <div className="hidden lg:flex flex-col justify-between">

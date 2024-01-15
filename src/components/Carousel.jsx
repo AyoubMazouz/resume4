@@ -24,7 +24,7 @@ export default function Carousel() {
     <div className="flex w-full h-full rounded-xl overflow-hidden">
       <div className="aspect-video">
         <div ref={ref} className="relative flex h-full items-center justify-center overflow-hidden bg-tertiary">
-          <button
+          <motion.button
             whileHover={{
               scale: 0.9,
               opacity: 0.75,
@@ -39,8 +39,8 @@ export default function Carousel() {
               width="36"
               className={currImg < projects[currProject].numOfImgs - 1 ? "text-accent" : "text-secondary"}
             />
-          </button>
-          <button
+          </motion.button>
+          <motion.button
             whileHover={{
               scale: 0.9,
               opacity: 0.75,
@@ -55,7 +55,7 @@ export default function Carousel() {
               width="36"
               className={currImg > -1 ? "text-accent" : "text-secondary"}
             />
-          </button>
+          </motion.button>
           <AnimatePresence custom={{ direction, width }}>
             {currImg === -1 ? (
               <motion.div
