@@ -14,7 +14,7 @@ const ProjectCard = ({ id, name, description, technologies, repoURL, demoURL }) 
   const { setCurrProject } = useGlobalContext()
   return (
     <motion.button
-      variants={fadeIn("up", "spring", id * 0.5, 0.5)}
+      variants={window.matchMedia("(max-width: 767px)").matches ? null : fadeIn("up", "spring", id * 0.5, 0.5)}
       onClick={() => {
         setCurrProject(id)
         document.body.style.overflow = "hidden"
@@ -82,18 +82,19 @@ const ProjectCard = ({ id, name, description, technologies, repoURL, demoURL }) 
 const Projects = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={window.matchMedia("(max-width: 767px)").matches ? null : textVariant()}>
         <p className={`${styles.sectionSubText} `}>My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
 
-      <div className="w-full flex">
-        <motion.p variants={fadeIn("", "", 0, 0.5)} className="mt-3 text-secondary max-w-3xl leading-[30px]">
-          Following projects showcases my skills and experience through real-world examples of my work. Each project is
-          briefly described with links to code repositories and live demos in it. It reflects my ability to solve
-          complex problems, work with different technologies, and manage projects effectively.
-        </motion.p>
-      </div>
+      <motion.p
+        variants={window.matchMedia("(max-width: 767px)").matches ? null : fadeIn("", "", 0, 0.5)}
+        className="mt-3 text-secondary max-w-3xl leading-[30px]"
+      >
+        Following projects showcases my skills and experience through real-world examples of my work. Each project is
+        briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex
+        problems, work with different technologies, and manage projects effectively.
+      </motion.p>
 
       <div className="mt-20 flex xl:justify-start justify-center flex-wrap gap-7">
         {projects.map((project, id) => (
