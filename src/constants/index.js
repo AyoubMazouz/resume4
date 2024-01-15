@@ -115,14 +115,6 @@ export const technologies = [
     name: "MySQL",
     icon: mysql,
   },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ]
 
 export const experiences = [

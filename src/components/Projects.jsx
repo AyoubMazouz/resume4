@@ -14,7 +14,7 @@ const ProjectCard = ({ id, name, description, technologies, repoURL, demoURL }) 
   const { setCurrProject } = useGlobalContext()
   return (
     <motion.button
-      variants={fadeIn("up", "spring", id * 0.5, 0.75)}
+      variants={fadeIn("up", "spring", id * 0.5, 0.5)}
       onClick={() => {
         setCurrProject(id)
         document.body.style.overflow = "hidden"
@@ -88,7 +88,7 @@ const Projects = () => {
       </motion.div>
 
       <div className="w-full flex">
-        <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-3 text-secondary max-w-3xl leading-[30px]">
+        <motion.p variants={fadeIn("", "", 0, 0.5)} className="mt-3 text-secondary max-w-3xl leading-[30px]">
           Following projects showcases my skills and experience through real-world examples of my work. Each project is
           briefly described with links to code repositories and live demos in it. It reflects my ability to solve
           complex problems, work with different technologies, and manage projects effectively.
