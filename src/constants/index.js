@@ -72,93 +72,191 @@ export const services = [
 
 export const technologies = [
   {
+    name: "HTML",
+    icon: "vscode-icons:file-type-html",
+  },
+  {
+    name: "CSS",
+    icon: "vscode-icons:file-type-css",
+  },
+  {
+    name: "SASS",
+    icon: "vscode-icons:file-type-sass",
+  },
+  {
     name: "JavaScript",
-    icon: javascript,
+    icon: "vscode-icons:file-type-js-official",
   },
   {
     name: "TypeScript",
-    icon: typescript,
+    icon: "vscode-icons:file-type-typescript-official",
+  },
+  {
+    name: "NodeJs",
+    icon: "vscode-icons:file-type-node",
   },
   {
     name: "PHP",
-    icon: php,
-  },
-  {
-    name: "Java",
-    icon: java,
-  },
-  {
-    name: "C#",
-    icon: cSharp,
-  },
-  {
-    name: "Golang",
-    icon: go,
+    icon: "logos:php",
   },
   {
     name: "Python",
-    icon: python,
+    icon: "vscode-icons:file-type-python",
   },
   {
-    name: "ReactJs",
-    icon: reactjs,
+    name: "Golang",
+    icon: "vscode-icons:file-type-go-lightblue",
   },
   {
-    name: "TailwindCss",
-    icon: tailwind,
+    name: "Java",
+    icon: "logos:java",
+    scale: 54,
   },
   {
-    name: "Laravel",
-    icon: laravel,
+    name: "C#",
+    icon: "vscode-icons:file-type-csharp2",
+  },
+  {},
+  {
+    name: "C",
+    icon: "vscode-icons:file-type-c3",
   },
   {
     name: "MySQL",
-    icon: mysql,
+    icon: "vscode-icons:file-type-mysql",
+  },
+  {
+    name: "PgSQL",
+    icon: "vscode-icons:file-type-pgsql",
+  },
+  {
+    name: "Prisma",
+    icon: "vscode-icons:file-type-light-prisma",
+  },
+  {
+    name: "Firebase",
+    icon: "vscode-icons:file-type-firebase",
+  },
+  {
+    name: "Laravel",
+    icon: "vscode-icons:file-type-blade",
+  },
+  {
+    name: "ReactJs",
+    icon: "vscode-icons:file-type-reactjs",
+  },
+  {
+    name: "NextJs",
+    icon: "logos:nextjs-icon",
+  },
+  {
+    name: "Svelte",
+    icon: "vscode-icons:file-type-svelte",
+  },
+  {},
+  {},
+  {},
+  {
+    name: "TailwindCss",
+    icon: "logos:tailwindcss-icon",
+  },
+  {
+    name: "BootStrap",
+    icon: "logos:bootstrap",
+  },
+  {
+    name: "Flutter",
+    icon: "vscode-icons:file-type-flutter",
+  },
+  {
+    name: "Git",
+    icon: "vscode-icons:file-type-git",
+  },
+  {
+    name: "Docker",
+    icon: "vscode-icons:file-type-docker2",
+  },
+  {
+    name: "Vite",
+    icon: "vscode-icons:file-type-vite",
+    scale: 54,
+  },
+  {
+    name: "Visual Studio Code",
+    icon: "vscode-icons:file-type-vscode",
+    scale: 54,
+  },
+  {},
+  {},
+  {},
+  {},
+  {},
+  {
+    name: "Figma",
+    icon: "logos:figma",
+    scale: 40,
+  },
+  {
+    name: "Godot",
+    icon: "logos:godot-icon",
+    scale: 54,
+  },
+  {
+    name: "Microsoft Word",
+    icon: "vscode-icons:file-type-word",
+  },
+  {
+    name: "Microsoft Excel",
+    icon: "vscode-icons:file-type-excel",
+  },
+  {
+    name: "Microsoft PowerPoint",
+    icon: "vscode-icons:file-type-powerpoint",
+  },
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {
+    name: "Adobe Photoshop",
+    icon: "logos:adobe-photoshop",
+    scale: 54,
+  },
+  {
+    name: "Adobe Premiere Pro",
+    icon: "logos:adobe-premiere",
+    scale: 54,
+  },
+  {
+    name: "Windows",
+    icon: "logos:microsoft-windows-icon",
+    scale: 54,
+  },
+  {},
+  {},
+  {},
+  {},
+  {
+    name: "Linux",
+    icon: "logos:linux-tux",
+    scale: 54,
   },
 ]
 
 export const experiences = [
   {
-    title: "Bachelor's degree in Life and Earth Sciences (SVT)",
-    company_name: "Qadi Ayad, Casablanca",
-    icon: school,
-    iconBg: "#383E56",
-    date: "2019 - 2020",
-    points: [],
-  },
-  {
-    title: "Specialized Technician in IT Infrastructure",
-    company_name: "ISFO (OFPPT), Casablanca",
-    icon: ofppt,
-    iconBg: "#383E56",
-    date: "2021 - 2023",
-    points: [
-      "Administration of Linux/Windows servers and virtual machines.",
-      "Learning the fundamentals of programming with Python.",
-      "Create and administrate cloud infrastructure with Openstack and Asur.",
-      "Create and administrate Network infrastructure with Cisco.",
-    ],
-  },
-  {
-    title: "Internship: Fullstack Developer",
-    company_name: "Sirecom",
-    icon: sericome,
+    title: "Fullstack Developer",
+    company_name: "AMDD",
+    icon: amdd,
     iconBg: "#E6DEDD",
-    date: "Jui - Août 2022",
-    points: ["Creating and maintaining web applications using Laravel and other related technologies."],
-  },
-  {
-    title: "Internship: Software Developer",
-    company_name: "Maxmind",
-    icon: maxmind,
-    iconBg: "#383E56",
-    date: "Avr - Nov 2023",
+    date: "Nov 2023 - à présent",
     points: [
-      "Creating web applications using React, Laravel, Svelte and other related technologies.",
-      "Creating automation scripts using Python.",
-      "Creating browser extensions using JavaScript and Svelte.",
-      "Scraping data from single page application using Puppeteer.",
-      "Consuming graphql APIs to create Modules for a CRM.",
+      "Creating and maintaining the new OFPPT platform using Laravel, React and other related technologies.",
+      "Structure Project to be scalable and maintainable.",
+      "Create highly optimized algorithms to solve complex problems.",
     ],
   },
   {
@@ -176,16 +274,47 @@ export const experiences = [
     ],
   },
   {
-    title: "Fullstack Developer",
-    company_name: "AMDD",
-    icon: amdd,
-    iconBg: "#E6DEDD",
-    date: "Nov 2023 - à présent",
+    title: "Internship: Software Developer",
+    company_name: "Maxmind",
+    icon: maxmind,
+    iconBg: "#383E56",
+    date: "Avr - Nov 2023",
     points: [
-      "Creating and maintaining the new OFPPT platform using Laravel, React and other related technologies.",
-      "Structure Project to be scalable and maintainable.",
-      "Create highly optimized algorithms to solve complex problems.",
+      "Creating web applications using React, Laravel, Svelte and other related technologies.",
+      "Creating automation scripts using Python.",
+      "Creating browser extensions using JavaScript and Svelte.",
+      "Scraping data from single page application using Puppeteer.",
+      "Consuming graphql APIs to create Modules for a CRM.",
     ],
+  },
+  {
+    title: "Internship: Fullstack Developer",
+    company_name: "Sirecom",
+    icon: sericome,
+    iconBg: "#E6DEDD",
+    date: "Jui - Août 2022",
+    points: ["Creating and maintaining web applications using Laravel and other related technologies."],
+  },
+  {
+    title: "Specialized Technician in IT Infrastructure",
+    company_name: "ISFO (OFPPT), Casablanca",
+    icon: ofppt,
+    iconBg: "#383E56",
+    date: "2021 - 2023",
+    points: [
+      "Administration of Linux/Windows servers and virtual machines.",
+      "Learning the fundamentals of programming with Python.",
+      "Create and administrate cloud infrastructure with Openstack and Asur.",
+      "Create and administrate Network infrastructure with Cisco.",
+    ],
+  },
+  {
+    title: "Bachelor's degree in Life and Earth Sciences (SVT)",
+    company_name: "Qadi Ayad, Casablanca",
+    icon: school,
+    iconBg: "#383E56",
+    date: "2019 - 2020",
+    points: [],
   },
 ]
 
@@ -198,8 +327,8 @@ export const projects = [
     videoId: "inX4ehepKd0",
     numOfImgs: 7,
     description: `
-      <p>
-        This project represents my <b>end-of-year project for 2023 at ISFOO (OFPPT)</b>, and I take great pride in its development. It stands out due to its significant utility in solving a real problem we encountered, especially considering that many other projects created during that time were relatively straightforward.
+    <p>
+    This project represents my <b>end-of-year project for 2023 at ISFOO (OFPPT)</b>, and I take great pride in its development. It stands out due to its significant utility in solving a real problem we encountered, especially considering that many other projects created during that time were relatively straightforward.
         Before the creation of this application, we relied on a Python script that I developed to convert existing schedules in Excel format to PDF, as depicted in the last image and video.
         This project is a (SaaS) that empowers users to create schedules using either the ISFOO template or a public school template. It also offers seamless integration of new templates, allowing for easy additions through the config file.
       </p>
@@ -304,7 +433,7 @@ export const projects = [
     lastUpdate: "jul 5 2022",
     demoURL: "https://dentalwebsite.netlify.app/",
     repoURL: "https://github.com/AyoubMazouz/dental-website",
-    videoId: "oQcCGjpY84s",
+    videoId: "oQcCGjpY54s",
     technologies: ["HTML/CSS", "Javascript", "TailwindCSS", "ReactJS", "React MarkDown", "FireBase"],
     numOfImgs: 9,
     description: `
