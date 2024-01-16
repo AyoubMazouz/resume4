@@ -31,7 +31,9 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
     setLoading(true)
-    console.log(import.meta.env.VITE_EMAILJS_PUBLIC_KEY)
+    if (form.name.trim(" ") === "") return alert("Please fill in your name.")
+    if (form.email.trim(" ") === "") return alert("Please fill in your email.")
+    if (form.message.trim(" ") === "") return alert("Please write a message.")
 
     emailjs
       .send(
@@ -82,6 +84,7 @@ const Contact = () => {
             <input
               type="text"
               name="name"
+              required
               value={form.name}
               onChange={handleChange}
               placeholder="What's your name?"
@@ -93,6 +96,7 @@ const Contact = () => {
             <input
               type="email"
               name="email"
+              required
               value={form.email}
               onChange={handleChange}
               placeholder="What's your email address?"
@@ -104,19 +108,26 @@ const Contact = () => {
             <textarea
               rows={7}
               name="message"
+              required
               value={form.message}
               onChange={handleChange}
               placeholder="What you would like to say?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
-
-          <button
+          <motion.button
+            href="MazouzAyoub.pdf"
             type="submit"
-            className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
+            whileHover={{
+              scale: 0.98,
+              opacity: 0.75,
+              transition: { duration: 0.3 },
+            }}
+            whileTap={{ scale: 0.95 }}
+            className="rounded-lg bg-accent hover:bg-transparent hover:border-2 hover:border-accent py-1.5 px-6 tracking-widest"
           >
             {loading ? "Sending..." : "Send"}
-          </button>
+          </motion.button>
         </form>
       </motion.div>
 

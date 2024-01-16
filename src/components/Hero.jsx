@@ -3,6 +3,7 @@ import { motion } from "framer-motion"
 import { styles } from "../styles"
 import { ComputersCanvas } from "./canvas"
 import { fullName } from "../constants"
+import { AnimatedText } from "./AnimatedText"
 
 const Hero = () => {
   return (
@@ -16,13 +17,17 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-accent">{fullName[1]}</span>
+          <h1 className={`${styles.heroHeadText} text-white flex`}>
+            <AnimatedText text={`Hi, I'm ${fullName[1]}`} changeColorAt={20} />
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Self-taught Software developer chasing
-            <br className="sm:block hidden" /> the dream of being a{" "}
-            <span className="text-accent font-bold">10x Dev</span>.
+          <p className={`text-2xl mt-3 text-white-100`}>
+            <AnimatedText
+              text={[
+                "Self-taught developer since 2018. I craft optimized,",
+                "scalable apps with focus for efficiency and user Experience.",
+              ]}
+              delay={0.4}
+            />
           </p>
         </div>
       </div>

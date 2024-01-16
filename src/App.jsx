@@ -2,6 +2,7 @@ import React from "react"
 import { About, Contact, Experience, Hero, Navbar, Tech, Projects, StarsCanvas } from "./components"
 import ProjectModel from "./components/ProjectModel"
 import { GlobalContextProvider } from "./contexts/globalContext"
+import { AnimatedText } from "./components/AnimatedText"
 
 const App = () => {
   return (

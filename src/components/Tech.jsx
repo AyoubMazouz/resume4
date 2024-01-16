@@ -15,13 +15,11 @@ const options = {
 }
 
 const Tech = () => {
-  const [hovered, setHovered] = React.useState(null)
-
   return (
     <div className="flex flex-wrap justify-center gap-10">
       {technologies.map((tech, index) =>
         tech?.name ? (
-          <Tilt options={options} className="w-16 h-16">
+          <Tilt key={tech.name} options={options} className="w-16 h-16">
             <motion.div
               variants={fadeIn("bottom", "spring", index * 0.1, 0.5)}
               className="group flex justify-center items-center h-full w-full"
