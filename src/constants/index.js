@@ -110,13 +110,12 @@ export const technologies = [
   {
     name: "Java",
     icon: "logos:java",
-    scale: 54,
+    scale: 0.8,
   },
   {
     name: "C#",
     icon: "vscode-icons:file-type-csharp2",
   },
-  {},
   {
     name: "C",
     icon: "vscode-icons:file-type-c3",
@@ -126,12 +125,12 @@ export const technologies = [
     icon: "vscode-icons:file-type-mysql",
   },
   {
-    name: "PgSQL",
-    icon: "vscode-icons:file-type-pgsql",
-  },
-  {
     name: "Prisma",
     icon: "vscode-icons:file-type-light-prisma",
+  },
+  {
+    name: "PgSQL",
+    icon: "vscode-icons:file-type-pgsql",
   },
   {
     name: "Firebase",
@@ -153,9 +152,6 @@ export const technologies = [
     name: "Svelte",
     icon: "vscode-icons:file-type-svelte",
   },
-  {},
-  {},
-  {},
   {
     name: "TailwindCss",
     icon: "logos:tailwindcss-icon",
@@ -179,27 +175,22 @@ export const technologies = [
   {
     name: "Vite",
     icon: "vscode-icons:file-type-vite",
-    scale: 54,
+    scale: 0.8,
   },
   {
     name: "Visual Studio Code",
     icon: "vscode-icons:file-type-vscode",
-    scale: 54,
+    scale: 0.8,
   },
-  {},
-  {},
-  {},
-  {},
-  {},
   {
     name: "Figma",
     icon: "logos:figma",
-    scale: 40,
+    scale: 0.5,
   },
   {
     name: "Godot",
     icon: "logos:godot-icon",
-    scale: 54,
+    scale: 0.8,
   },
   {
     name: "Microsoft Word",
@@ -213,36 +204,25 @@ export const technologies = [
     name: "Microsoft PowerPoint",
     icon: "vscode-icons:file-type-powerpoint",
   },
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
   {
     name: "Adobe Photoshop",
     icon: "logos:adobe-photoshop",
-    scale: 54,
+    scale: 0.8,
   },
   {
     name: "Adobe Premiere Pro",
     icon: "logos:adobe-premiere",
-    scale: 54,
+    scale: 0.8,
   },
   {
     name: "Windows",
     icon: "logos:microsoft-windows-icon",
-    scale: 54,
+    scale: 0.8,
   },
-  {},
-  {},
-  {},
-  {},
   {
     name: "Linux",
     icon: "logos:linux-tux",
-    scale: 54,
+    scale: 0.8,
   },
 ]
 

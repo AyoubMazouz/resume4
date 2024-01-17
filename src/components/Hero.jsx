@@ -17,15 +17,12 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white flex`}>
+          <h1 className={`font-black text-white text-3xl sm:text-5xl lg:text-6xl xl:text-7xl tracking-wide mt-4 flex`}>
             <AnimatedText text={`Hi, I'm ${fullName[1]}`} changeColorAt={20} />
           </h1>
-          <p className={`text-base sm:text-lg lg:text-xl xl:text-2xl mt-2 text-white-100`}>
+          <p className={`text-sm sm:text-lg lg:text-xl xl:text-2xl mt-2 text-secondary max-w-[45ch]`}>
             <AnimatedText
-              text={[
-                "Self-taught developer since 2018. I craft optimized,",
-                "scalable apps with focus for efficiency and user Experience.",
-              ]}
+              text="Self-taught developer since 2018. I craft optimized, scalable apps with focus for efficiency and user Experience."
               delay={0.4}
             />
           </p>

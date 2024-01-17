@@ -210,3 +210,39 @@
 .model-w {
   width: clamp(50%, 90%, 1200px);
 }
+
+.perspective-600 {
+  flex: 0 0 auto;
+  perspective: 200px;
+}
+
+.grid div:nth-child(1),
+.grid div:nth-child(2),
+.grid div:nth-child(3),
+.grid div:nth-child(4),
+.grid div:nth-child(5),
+.grid div:nth-child(6),
+.grid div:nth-child(12),
+.grid div:nth-child(18),
+.grid div:nth-child(24),
+.grid div:nth-child(23),
+.grid div:nth-child(22),
+.grid div:nth-child(21),
+.grid div:nth-child(20),
+.grid div:nth-child(19),
+.grid div:nth-child(13),
+.grid div:nth-child(7),
+.grid div:nth-child(8),
+.grid div:nth-child(9),
+.grid div:nth-child(15),
+.grid div:nth-child(14),
+.grid div:nth-child(16),
+.grid div:nth-child(17),
+.grid div:nth-child(11),
+.grid div:nth-child(10) {
+  animation: yourAnimation 1000ms ease-in-out infinite alternate;
+}
+
+@keyframes pulse {
+  to {transform: translate3d(-20px, -20px, -20px);}
+}
