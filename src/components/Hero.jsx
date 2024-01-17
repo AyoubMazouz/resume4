@@ -20,7 +20,7 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white flex`}>
             <AnimatedText text={`Hi, I'm ${fullName[1]}`} changeColorAt={20} />
           </h1>
-          <p className={`text-2xl mt-3 text-white-100`}>
+          <p className={`text-base sm:text-lg lg:text-xl xl:text-2xl mt-2 text-white-100`}>
             <AnimatedText
               text={[
                 "Self-taught developer since 2018. I craft optimized,",
