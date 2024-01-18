@@ -14,7 +14,7 @@ const ProjectCard = ({ id, name, description, technologies, repoURL, demoURL }) 
   const { setCurrProject } = useGlobalContext()
   return (
     <motion.button
-      variants={window.matchMedia("(max-width: 767px)").matches ? null : fadeIn("up", "spring", id * 0.5, 0.5)}
+      // variants={fadeIn("up", "spring", id * 0.5, 0.5)}
       onClick={() => {
         setCurrProject(id)
         document.body.style.overflow = "hidden"
@@ -94,13 +94,15 @@ const ProjectCard = ({ id, name, description, technologies, repoURL, demoURL }) 
 const Projects = () => {
   return (
     <>
-      <motion.div variants={window.matchMedia("(max-width: 767px)").matches ? null : textVariant()}>
+      <motion.div
+      // variants={ textVariant()}
+      >
         <p className={`${styles.sectionSubText} `}>My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
 
       <motion.p
-        variants={window.matchMedia("(max-width: 767px)").matches ? null : fadeIn("", "", 0, 0.5)}
+        // variants={fadeIn("", "", 0, 0.5)}
         className="mt-3 text-secondary max-w-3xl leading-[30px]"
       >
         Following projects showcases my skills and experience through real-world examples of my work. Each project is
