@@ -36,7 +36,10 @@ const ProjectModel = () => {
                 transition: { duration: 0.3 },
               }}
               whileTap={{ scale: 0.8 }}
-              onClick={() => setCurrProject(null)}
+              onClick={() => {
+                setCurrProject(null)
+                document.body.style.overflow = "auto"
+              }}
               className="absolute top-4 right-4 rounded-full p-2"
             >
               <Icon icon="icon-park-solid:close-one" width="32" className="text-secondary" />
