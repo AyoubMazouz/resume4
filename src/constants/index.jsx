@@ -28,8 +28,15 @@ export const linkedinURL = "https://www.linkedin.com/in/ayoubmazouz/"
 export const githubURL = "https://github.com/ayoubmazouz"
 
 export const fullName = ["Mazouz", "Ayoub"]
+export const title = "Software Developer"
 export const emailAddress = "ayoub2000mazouz@gmail.com"
 export const phoneNumber = "07 70 75 91 06"
+export const details = [
+  "07 70 75 91 06",
+  "ayoub2000mazouz@gmail.com",
+  "https://ayoubmazouz.github.io",
+  "Sidi-Maârouf Lot Anna 4, 14_6, Casablanca.",
+]
 
 export const heroSection = "I develop 3d User interfaces and web applications"
 
@@ -78,10 +85,6 @@ export const technologies = [
   {
     name: "CSS",
     icon: "vscode-icons:file-type-css",
-  },
-  {
-    name: "SASS",
-    icon: "vscode-icons:file-type-sass",
   },
   {
     name: "JavaScript",
@@ -140,6 +143,7 @@ export const technologies = [
     name: "Laravel",
     icon: "vscode-icons:file-type-blade",
   },
+  {},
   {
     name: "ReactJs",
     icon: "vscode-icons:file-type-reactjs",
@@ -155,6 +159,10 @@ export const technologies = [
   {
     name: "TailwindCss",
     icon: "logos:tailwindcss-icon",
+  },
+  {
+    name: "SASS",
+    icon: "vscode-icons:file-type-sass",
   },
   {
     name: "BootStrap",
@@ -185,7 +193,7 @@ export const technologies = [
   {
     name: "Figma",
     icon: "logos:figma",
-    scale: 0.5,
+    scale: 0.25,
   },
   {
     name: "Godot",
@@ -196,6 +204,7 @@ export const technologies = [
     name: "Microsoft Word",
     icon: "vscode-icons:file-type-word",
   },
+  {},
   {
     name: "Microsoft Excel",
     icon: "vscode-icons:file-type-excel",
@@ -226,77 +235,82 @@ export const technologies = [
   },
 ]
 
-export const experiences = [
-  {
-    title: "Fullstack Developer",
-    company_name: "AMDD",
-    icon: amdd,
-    iconBg: "#E6DEDD",
-    date: "Nov 2023 - à présent",
-    points: [
-      "Creating and maintaining the new OFPPT platform using Laravel, React and other related technologies.",
-      "Structure Project to be scalable and maintainable.",
-      "Create highly optimized algorithms to solve complex problems.",
-    ],
-  },
-  {
-    title: "Licence professionnelle en développement informatique",
-    company_name: "l'université des sciences hassan II, Casablanca",
-    icon: fsac,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Learning Java, C# and there perspective web frameworks.",
-      "Deep dive into sql databases and how to use them at scale.",
-      "Learning UML and creating diagrams for practice.",
-      "Creating highly scalable web applications using previously known technologies.",
-      "etc...",
-    ],
-  },
-  {
-    title: "Internship: Software Developer",
-    company_name: "Maxmind",
-    icon: maxmind,
-    iconBg: "#383E56",
-    date: "Avr - Nov 2023",
-    points: [
-      "Creating web applications using React, Laravel, Svelte and other related technologies.",
-      "Creating automation scripts using Python.",
-      "Creating browser extensions using JavaScript and Svelte.",
-      "Scraping data from single page application using Puppeteer.",
-      "Consuming graphql APIs to create Modules for a CRM.",
-    ],
-  },
-  {
-    title: "Internship: Fullstack Developer",
-    company_name: "Sirecom",
-    icon: sericome,
-    iconBg: "#E6DEDD",
-    date: "Jui - Août 2022",
-    points: ["Creating and maintaining web applications using Laravel and other related technologies."],
-  },
-  {
-    title: "Specialized Technician in IT Infrastructure",
-    company_name: "ISFO (OFPPT), Casablanca",
-    icon: ofppt,
-    iconBg: "#383E56",
-    date: "2021 - 2023",
-    points: [
-      "Administration of Linux/Windows servers and virtual machines.",
-      "Learning the fundamentals of programming with Python.",
-      "Create and administrate cloud infrastructure with Openstack and Asur.",
-      "Create and administrate Network infrastructure with Cisco.",
-    ],
-  },
-  {
-    title: "Bachelor's degree in Life and Earth Sciences (SVT)",
-    company_name: "Qadi Ayad, Casablanca",
-    icon: school,
-    iconBg: "#383E56",
-    date: "2019 - 2020",
-    points: [],
-  },
+export const education = [
+  [
+    "2023 - 2024",
+    "Licence professionnelle en développement informatique à l'université des sciences hassan II à Casablanca.",
+  ],
+  ["2021 - 2023", "Technicien Spécialisé en Infrastructure Informatique à ISFO (OFPPT) à Casablanca."],
+  ["2019 - 2020", "Baccalauréat branche Science de la Vie et la Terre (SVT) à lycée Qadi Ayad, Casablanca."],
 ]
+
+export const experiences = [
+  [
+    "Nov - Jan 2024",
+    <>
+      Stage: Fullstack Développeur à <a href="#">AMDD.</a>
+    </>,
+  ],
+  [
+    "Avr - Nov 2023",
+    <>
+      Stage: Software Développeur à <a href="https://maxmind.ma">Maxmind.ma.</a>
+    </>,
+  ],
+  [
+    "Jui - Août 2022",
+    <>
+      Stage: Fullstack Développeur à <a href="https://sirecom.ma">Sirecom.ma.</a>
+    </>,
+  ],
+  ["2020 - 2024", "Freelance: création des applications et de scripts d'automatisation."],
+]
+export const languages = ["Anglais", "Français", "Arabe"]
+
+export const competencies = [
+  "Administrer les systèmes Windows et Linux.",
+  "Administrer les resaux Informatique (Avoir réussi tous les modules CCNA).",
+  "Algorithms & Data Structures",
+  "Créer/utiliser APIs et les bases de données SQL & noSQL",
+  "Automatisation et virtualisation.",
+  "Tests unitaires et débogage.",
+  "Web scraping (y compris des sites dynamiques comme facebook.com)",
+  "Apprenant vite, tant que la documentation est disponible.",
+  "Résolution de problèmes et pensée critique.",
+  "Auditeur actif, apprentissage continu.",
+]
+
+export const programmingLangues = {
+  efficient: [
+    "JavaScript/TypeScript/NodeJs",
+    "HTML/CSS",
+    "ReactJs/NextJs",
+    "svelte/SvelteKit",
+    "Laravel",
+    "Express",
+    "TailwindCSS",
+    "MySQL",
+    "Python",
+    "PHP",
+    "Git",
+    "Linux/Windows",
+  ],
+  familiar: [
+    "Java",
+    "Go",
+    "Flutter",
+    "Postgres",
+    "Bash",
+    "PowerShell",
+    "FireBase",
+    "Bootstrap",
+    "Wordpress",
+    "Figma",
+    "Microsoft Office",
+    "Adobe Products",
+    "Autres frameworks et outils",
+  ],
+}
 
 export const projects = [
   {

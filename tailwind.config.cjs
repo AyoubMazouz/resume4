@@ -3,14 +3,26 @@ module.exports = {
   content: ["./src/**/*.{js,jsx}"],
   theme: {
     extend: {
+      // colors: {
+      //   primary: "#050816",
+      //   secondary: "#aaa6c3",
+      //   tertiary: "#151030",
+      //   accent: "#915EFF",
+      //   "black-100": "#100d25",
+      //   "black-200": "#090325",
+      //   "white-100": "#f3f3f3",
+      // },
+      // colors: {
+      //   light: "#f3f3f3",
+      //   dark: "#090325",
+      //   primary: "#915EFF",
+      //   secondary: "#aaa6c3",
+      // },
       colors: {
-        primary: "#050816",
-        secondary: "#aaa6c3",
-        tertiary: "#151030",
-        accent: "#915EFF",
-        "black-100": "#100d25",
-        "black-200": "#090325",
-        "white-100": "#f3f3f3",
+        light: "#ECECEC",
+        dark: "#151D3B",
+        primary: "#533E85",
+        secondary: "#B1A8B3",
       },
       boxShadow: {
         card: "0px 35px 120px -15px #211e35",
