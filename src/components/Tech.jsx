@@ -23,7 +23,7 @@ const Tech = () => {
         <h2 className={`${styles.sectionHeadText}`}>Technologies.</h2>
       </motion.div>
 
-      <div className="perspective-600 mt-40 grid items-center grid-cols-6 grid-rows-6 md:rotate-45 md:gap-6 lg:gap-12 justify-center overflow-hidden p-6">
+      <div className="perspective-600 md:mt-40 grid items-center grid-cols-6 grid-rows-6 md:rotate-45 md:gap-6 lg:gap-12 justify-center overflow-hidden p-6">
         {technologies.map((tech, index) =>
           tech?.name ? (
             <Tilt key={tech.name} options={options} className="tech-grid-item w-16 h-16">
