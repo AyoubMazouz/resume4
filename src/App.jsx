@@ -1,15 +1,5 @@
 import React from "react"
-import {
-  competencies,
-  details,
-  education,
-  experiences,
-  fullName,
-  languages,
-  programmingLangues,
-  technologies,
-  title,
-} from "./constants"
+import { competencies, details, education, experiences, fullName, languages, technologies, title } from "./constants"
 import { Icon } from "@iconify/react"
 
 const Container = ({ title, children }) => {
@@ -63,7 +53,7 @@ const App = () => {
         <Container title="Formation">
           <div className="space-y-1.5">
             {education?.map((education) => (
-              <div className="grid grid-cols-12 my-1.5">
+              <div key={education[1]} className="grid grid-cols-12 my-1.5">
                 <span className="col-span-3">{education[0]}</span>
                 <span className="col-span-9">{education[1]}</span>
               </div>
@@ -73,7 +63,7 @@ const App = () => {
         {/* Experience */}
         <Container title="expériences">
           {experiences?.map((experience) => (
-            <div className="grid grid-cols-12 my-1.5">
+            <div key={experience[1]} className="grid grid-cols-12 my-1.5">
               <span className="col-span-3">{experience[0]}</span>
               <span className="col-span-9">{experience[1]}</span>
             </div>
@@ -84,12 +74,12 @@ const App = () => {
         <Container title="Compétences">
           <div className="grid grid-cols-2 gap-4 mb-3">
             <ul className="list-disc ml-4">
-              {competencies.slice(0, competencies.length / 2)?.map((competence) => (
-                <li>{competence}</li>
+              {competencies.slice(0, competencies.length / 2 + 1)?.map((competence) => (
+                <li key={competence}>{competence}</li>
               ))}
             </ul>
             <ul className="list-disc ml-4">
-              {competencies.slice(competencies.length / 2)?.map((competence) => (
+              {competencies.slice(competencies.length / 2 + 1)?.map((competence) => (
                 <li>{competence}</li>
               ))}
             </ul>
@@ -103,7 +93,7 @@ const App = () => {
           <div className="flex flex-wrap items-center grid-cols-12 gap-4 justify-center overflow-hidden">
             {technologies.map((tech, index) =>
               tech?.name ? (
-                <div className="tech-grid-item w-8 h-8 group flex justify-center items-center">
+                <div key={tech.icon} className="tech-grid-item w-8 h-8 group flex justify-center items-center">
                   <Icon icon={tech.icon} width={tech?.scale ? tech?.scale * 96 : 96} className={`${tech.class}`} />
                 </div>
               ) : (
