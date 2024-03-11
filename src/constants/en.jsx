@@ -1,5 +1,5 @@
 export const fullName = ["Mazouz", "Ayoub"]
-export const title = "Software Developer"
+export const title = "Fullstack Developer"
 export const details = [
   "07 70 75 91 06",
   "ayoub2000mazouz@gmail.com",
@@ -220,12 +220,13 @@ export const experiences = [
 export const languages = ["English", "French", "Arabic"]
 
 export const competencies = [
-  <p>Creation and maintenance of FullStack Applications.</p>,
-  <p>Proficiency in using version control (<b>git, github, gitlab</b>).</p>,
+  <p>Creation and maintenance of FullStack Apps.</p>,
+  <p>Proficiency in version control (<b>git, github, gitlab</b>).</p>,
   <p>Managing and maintaining Databases including <b>SQL, Postgres, NoSQL</b>.</p>,
   <p>Proficient in full-stack development using <b>Laravel, React, Vue</b>.</p>,
   <p>Familiar with the latest trends in web development like <b>Svelte, Tailwind, Go, Next.js</b>, etc...</p>,
   <p>Familiar with no code tools and platforms such as <b>Wordpress, Shopify</b>, etc...</p>,
+  <p>Can use <b>Docker</b> for development and deployment</p>,
   <p>Good understanding of different software architecture and design patterns.</p>,
   <p>Good sense of <b>UI design and user accessibility</b>.</p>,
   <p>Wide range of experience across different programming languages and frameworks.</p>,

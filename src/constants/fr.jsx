@@ -4,7 +4,7 @@ export const linkedinURL = "https://www.linkedin.com/in/ayoubmazouz/"
 export const githubURL = "https://github.com/ayoubmazouz"
 
 export const fullName = ["Mazouz", "Ayoub"]
-export const title = "Software Developer"
+export const title = "Développeur Fullstack"
 export const emailAddress = "ayoub2000mazouz@gmail.com"
 export const phoneNumber = "07 70 75 91 06"
 export const details = [
@@ -197,48 +197,71 @@ export const technologies = [
 export const education = [
   [
     "2023 - 2024",
-    "Licence professionnelle en développement informatique à l'université des sciences hassan II à Casablanca.",
+    <>
+      Licence Professionnelle en Développement Informatique à l'Université Hassan II des Sciences à Casablanca.
+    </>,
   ],
-  ["2021 - 2023", "Technicien Spécialisé en Infrastructure Informatique à ISFO (OFPPT) à Casablanca."],
-  ["2019 - 2020", "Baccalauréat branche Science de la Vie et la Terre (SVT) à lycée Qadi Ayad, Casablanca."],
-]
+  [
+    "2021 - 2023",
+    <>
+      Technicien Spécialisé en Infrastructure Informatique à l'ISFO (OFPPT) à Casablanca.
+    </>,
+  ],
+  [
+    "2019 - 2020",
+    <>
+      Baccalauréat en Sciences de la Vie et de la Terre (SVT) au Lycée Qadi Ayad, Casablanca.
+    </>,
+  ],
+];
 
 export const experiences = [
   [
-    "Nov - Jan 2024",
+    "22 Juin - Actuellement",
     <>
-      Stage: Fullstack Développeur à <a href="#">AMDD.</a>
+      Stage : Développeur Fullstack chez Rivertech
+    </>,
+  ],
+  [
+    "Nov 2023 - Janv 2024",
+    <>
+      Stage : Développeur Fullstack chez AMDD.
     </>,
   ],
   [
     "Avr - Nov 2023",
     <>
-      Stage: Software Développeur à <a href="https://maxmind.ma">Maxmind.ma.</a>
+      Stage : Développeur de Logiciels chez <a href="https://maxmind.ma"><b>Maxmind.ma</b></a>
     </>,
   ],
   [
-    "Jui - Août 2022",
+    "Juin - Août 2022",
     <>
-      Stage: Fullstack Développeur à <a href="https://sirecom.ma">Sirecom.ma.</a>
+      Stage : Développeur Fullstack chez <a href="https://sirecom.ma"><b>Sirecom.ma</b></a>
     </>,
   ],
-  ["2020 - 2024", "Freelance: création des applications et de scripts d'automatisation."],
+  ["2020 - 2024", "Freelance : Création d'applications et de scripts d'automatisation."],
 ]
+
 export const languages = ["Anglais", "Français", "Arabe"]
 
 export const competencies = [
-  "Administrer les systèmes Windows et Linux.",
-  "Administrer les resaux Informatique (Avoir réussi tous les modules CCNA).",
-  "Algorithms & Data Structures",
-  "Créer/utiliser APIs et les bases de données SQL & noSQL",
-  "Automatisation et virtualisation.",
-  "Tests unitaires et débogage.",
-  "Web scraping (y compris des sites dynamiques comme facebook.com)",
-  "Apprenant vite, tant que la documentation est disponible.",
-  "Résolution de problèmes et pensée critique.",
-  "Auditeur actif, apprentissage continu.",
-]
-
+  <p>Création et maintenance d'applications FullStack.</p>,
+  <p>Maitrise de l'utilisation du <b>Git, Github</b> et <b>Gitlab</b>.</p>,
+  <p>Gestion et maintenance de bases de données incluant <b>SQL, Postgres, NoSQL</b>.</p>,
+  <p>Maitrise du développement Fullstack utilisant <b>Laravel, React, Vue</b>.</p>,
+  <p>Familiarité avec les dernières tendances en développement web comme <b>Svelte, Tailwind, Go, Next.js</b>, etc...</p>,
+  <p>Familiarité avec les outils et plateformes sans code tels que <b>Wordpress, Shopify</b>, etc...</p>,
+  <p>Capable d'utiliser <b>Docker</b> pour le développement et le déploiement.</p>,
+  <p>Bonne compréhension des différentes architectures logicielles et des patterns de design.</p>,
+  <p>Bon sens du <b>design UI et de l'accessibilité utilisateur</b>.</p>,
+  <p>Large expérience avec différents langages de programmation et frameworks.</p>,
+  <p>Compréhension approfondie des normes web et des meilleures pratiques.</p>,
+  <p>Capacité à travailler de manière autonome et en équipe.</p>,
+  <p><b>Apprenant continu</b> et <b>autodidacte</b>.</p>,
+  <p>Penseur critique et créatif.</p>,
+  <p><b>Écoute active</b> et <b>excellent communicateur</b>.</p>,
+];
 export const programmingLangues = {
   efficient: [
     "JavaScript/TypeScript/NodeJs",

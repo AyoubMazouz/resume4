@@ -76,12 +76,12 @@ const App = () => {
         <Container title="Skills">
           <div className="grid grid-cols-2 gap-4 mb-3">
             <ul className="list-disc ml-4 space-y-1">
-              {competencies.slice(0, competencies.length / 2 - 1)?.map((competence) => (
+              {competencies.slice(0, competencies.length / 2 )?.map((competence) => (
                 <li key={competence}>{competence}</li>
               ))}
             </ul>
             <ul className="list-disc ml-4 space-y-1">
-              {competencies.slice(competencies.length / 2 - 1 )?.map((competence) => (
+              {competencies.slice(competencies.length / 2  )?.map((competence) => (
                 <li>{competence}</li>
               ))}
             </ul>
