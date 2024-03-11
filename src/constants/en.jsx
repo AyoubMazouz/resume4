@@ -169,48 +169,72 @@ export const technologies = [
 ]
 
 export const education = [
-  ["2023 - 2024", "Professional License in Computer Development at Hassan II University of Science in Casablanca."],
-  ["2021 - 2023", "Specialized Technician in Computer Infrastructure at ISFO (OFPPT) in Casablanca."],
-  ["2019 - 2020", "Baccalaureate in Life and Earth Science (SVT) at Qadi Ayad High School, Casablanca."],
-]
+  [
+    "2023 - 2024",
+    <>
+      Professional License in Computer Development at <b>Hassan II University of Science</b> in Casablanca.
+    </>,
+  ],
+  [
+    "2021 - 2023",
+    <>
+      Specialized Technician in Computer Infrastructure at <b>ISFO (OFPPT)</b> in Casablanca.
+    </>,
+  ],
+  [
+    "2019 - 2020",
+    <>
+      Baccalaureate in Life and Earth Science (SVT) at <b>Qadi Ayad High School</b>, Casablanca.
+    </>,
+  ],
+];
 
 export const experiences = [
   [
+    "22 Jun - Now",
+    <>
+      Internship: Fullstack Developer at <b>Rivertech</b>
+    </>,
+  ],
+  [
     "Nov 2023 - Jan 2024",
     <>
-      Internship: Fullstack Developer at <a href="#">AMDD.</a>
+      Internship: Fullstack Developer at <b>AMDD</b>.
     </>,
   ],
   [
     "Apr - Nov 2023",
     <>
-      Internship: Software Developer at <a href="https://maxmind.ma">Maxmind.ma.</a>
+      Internship: Software Developer at <a href="https://maxmind.ma"><b>Maxmind.ma</b></a>
     </>,
   ],
   [
     "Jun - Aug 2022",
     <>
-      Internship: Fullstack Developer at <a href="https://sirecom.ma">Sirecom.ma.</a>
+      Internship: Fullstack Developer at <a href="https://sirecom.ma"><b>Sirecom.ma</b></a>
     </>,
   ],
   ["2020 - 2024", "Freelance: Creating applications and automation scripts."],
 ]
 
-export const languages = ["Anglais", "Français", "Arabe"]
+export const languages = ["English", "French", "Arabic"]
 
 export const competencies = [
-  "Administering Windows and Linux systems.",
-  "Administering Computer Networks (Successfully completed all CCNA modules).",
-  "Algorithms & Data Structures",
-  "Creating/using APIs and SQL & noSQL databases",
-  "Automation and virtualization.",
-  "Good communication and attention to detail.",
-  "Unit testing and debugging.",
-  "Web scraping (including dynamic sites like facebook.com)",
-  "Quick learner, as long as documentation is available.",
-  "Problem-solving and critical thinking.",
-  "Active listener, continuous learning.",
-]
+  <p>Creation and maintenance of FullStack Applications.</p>,
+  <p>Proficiency in using version control (<b>git, github, gitlab</b>).</p>,
+  <p>Managing and maintaining Databases including <b>SQL, Postgres, NoSQL</b>.</p>,
+  <p>Proficient in full-stack development using <b>Laravel, React, Vue</b>.</p>,
+  <p>Familiar with the latest trends in web development like <b>Svelte, Tailwind, Go, Next.js</b>, etc...</p>,
+  <p>Familiar with no code tools and platforms such as <b>Wordpress, Shopify</b>, etc...</p>,
+  <p>Good understanding of different software architecture and design patterns.</p>,
+  <p>Good sense of <b>UI design and user accessibility</b>.</p>,
+  <p>Wide range of experience across different programming languages and frameworks.</p>,
+  <p>Deep understanding of the web standards and best practices.</p>,
+  <p>Can work independently and in a team environment.</p>,
+  <p><b>Continuous learner</b> and <b>self-taught</b>.</p>,
+  <p>Critical and out of the box thinker.</p>,
+  <p><b>Active listener</b> and <b>great communicator</b>.</p>,
+];
 
 export const projects = [
   {
