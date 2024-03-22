@@ -4,7 +4,7 @@ import { Icon } from "@iconify/react"
 
 const Container = ({ title, children }) => {
   return (
-    <div className={`relative px-4 py-3`}>
+    <div className={`relative px-4 mt-2`}>
       <div className={`px-4 text-lg border-t border-b border-primary uppercase text-primary font-bold`}>{title}</div>
       <div className="mt-2">{children}</div>
     </div>
@@ -17,14 +17,14 @@ const App = () => {
 
       <div className="w-[210mm] h-[297mm] mx-auto bg-light rounded-xl overflow-hidden">
         {/* Header */}
-        <div className="flex gap-x-4 bg-primary p-4 bg-[url('/herobg.png')] bg-cover bg-center">
-          <div className="h-[175px] min-w-[175px] aspect-square shadow  rounded-lg overflow-hidden">
+        <div className="flex gap-x-4 bg-primary p-4  bg-[url('/herobg.png')] bg-cover bg-center">
+          <div className="h-[165px] min-w-[165px] aspect-square shadow  rounded-lg overflow-hidden">
             <img src="/profile.jpg" className="w-full h-full object-cover" />
           </div>
           <div className={`flex flex-col justify-between w-full text-light mt-[-.35rem]`}>
-            <div className={`text-5xl space-x-2 text-light tracking-widest`}>
-              <span className="font-black">{fullName[0]}</span>
-              <span className="font-light">{fullName[1]}</span>
+            <div className={`text-4xl space-x-2 text-light tracking-widest`}>
+              <span className="">{fullName[0]}</span>
+              <span className="">{fullName[1]}</span>
             </div>
             <div className={`text-sm tracking-tight text-secondary uppercase`}>{title}</div>
             <div className="grid grid-cols-12 gap-1 text-sm">
@@ -72,7 +72,7 @@ const App = () => {
         {/* Grid */}
         {/* Competencies */}
         <Container title="Compétences">
-          <div className="mb-3">
+          <div className="">
             <ul className="list-disc ml-4 space-y-1">
               {competencies.map((competence) => (
                 <li key={competence}>{competence}</li>
@@ -82,13 +82,7 @@ const App = () => {
         </Container>
 
         {/* Languages */}
-        <Container title="Linguistique">
-          <ul className="list-disc ml-4 space-y-1">
-            {languages.map((lang) => (
-              <li>{lang}</li>
-            ))}
-          </ul>
-        </Container>
+        <Container title="Linguistique">{languages}</Container>
 
         {/* <Container title="Technical Skills">
           <div className="flex flex-wrap items-center grid-cols-12 gap-4 justify-center overflow-hidden">
