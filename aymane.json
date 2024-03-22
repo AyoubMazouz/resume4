@@ -1,0 +1,76 @@
+[
+  {
+    "id": "0",
+    "title": "details",
+    "type": "header",
+    "content": {
+      "firstName": "",
+      "lastName": "ABBA",
+      "title": "Technicien spécialise en diagnostic et électronique automobile",
+      "age": "27 ans, célibataire",
+      "phone": "abbaaymane@gmail.com",
+      "email": "+212657220716 +212660665480",
+      "address": "Hay El Omaria rue 1 n160 Apt 14 AIN CHOCK CASABLANCA"
+    }
+  },
+  {
+    "id": "-1",
+    "title": "Lettre motivation",
+    "type": "letter",
+    "content": { "companyName": "", "subject": "", "recipient": "", "date": "", "signature": "", "paragraphs": [] }
+  },
+  {
+    "id": "1",
+    "type": "date_list",
+    "title": "Formation",
+    "content": [
+      {
+        "date": "2015 - 2017 ",
+        "text": "Diplôme de technicien spécialisé en diagnostic et électronique embarquée au centre de recherche et d´engineering automobile"
+      },
+      { "date": "2017", "text": "Participations au WORLD SKILLS" },
+      {
+        "date": "2013 - 2015",
+        "text": "Diplôme de technicien en réparation des engins à moteur au centre de recherche et d´engineering automobile"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Expériences professionnelles",
+    "type": "date_list",
+    "content": [
+      {
+        "date": "Jan 2021 - poste actuel",
+        "text": "Consultant support technique : ( Capgemini Engineering ) Support technique des techniciens auprès de STELLANTIS (PSA,OPEL) : Motorisation DIESEL/ESSENCE et chaine de transmission. Télématique et véhicule connecté. Réseau de bord et mise en réseau (multiplexage). "
+      },
+      {
+        "date": "Juil 2017 – Jan 2021",
+        "text": "Technicien en diagnostic et électronique : ( Mercedes Benz \"Auto-Nejma\" ) Diagnostic et remise en état des systèmes électronique réseau de bord, mise en réseaux ( multiplexage) sécurité confort et télématique Etablissement des dossiers de garantie, rédaction des rapports détermination des positions de travail Technicien qualifie (programme de formation Daimler AG en 2018) Technicien système (programme de formation Daimler AG en 2020) Technicien certifiée (programme de formation Daimler AG en cours)"
+      },
+      { "date": "2015 – 2017", "text": "Stage en alternance : ( Mercedes Benz \"Auto-Nejma\" )" },
+      {
+        "date": "Atelier Swift Islah ",
+        "text": "Atelier Swift Islah : Maintenance des systèmes mécanique, révision générale"
+      },
+      { "date": "", "text": "Renault: (Univers Auto) Maintenance préventive des véhicules" }
+    ]
+  },
+  {
+    "id": "3",
+    "type": "list",
+    "title": "Compétences",
+    "content": [
+      "Diagnostic et maintenance",
+      "Maitrise des instruments de mesure",
+      "Maitrise des outils bureautique pack Microsoft office"
+    ]
+  },
+  {
+    "id": "4",
+    "type": "labels",
+    "title": "Linguistique",
+    "content": ["Arabe (maternelle)", "Français (bien)", "Anglais (moyen)", "Allemand (niveau B1.1)"]
+  },
+  { "idCount": 6, "type": "add_section" }
+]

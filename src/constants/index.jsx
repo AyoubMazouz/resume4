@@ -1,25 +1,3 @@
-import {
-  fullName,
-  title,
-  details,
-  aboutSection,
-  technologies,
-  education,
-  experiences,
-  languages,
-  competencies,
-  projects,
-} from "./fr"
+import { fullName, title, details, education, experiences, languages, competencies } from "./fr"
 
-export {
-  fullName,
-  title,
-  details,
-  aboutSection,
-  technologies,
-  education,
-  experiences,
-  languages,
-  competencies,
-  projects,
-}
+export { fullName, title, details, education, experiences, languages, competencies }
