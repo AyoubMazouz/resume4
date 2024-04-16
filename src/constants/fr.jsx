@@ -213,13 +213,13 @@ export const education = [
       Baccalauréat en Sciences de la Vie et de la Terre (SVT) au Lycée Qadi Ayad, Casablanca.
     </>,
   ],
-];
+]
 
 export const experiences = [
   [
-    "22 Juin - Actuellement",
+    "Avr 2024 - now",
     <>
-      Stage : Développeur Fullstack chez Rivertech
+      Stage: Développeur de Logiciels chez  <a href="https://cactus.ma"><b>Cactus.ma</b></a>
     </>,
   ],
   [
@@ -240,7 +240,6 @@ export const experiences = [
       Stage : Développeur Fullstack chez <a href="https://sirecom.ma"><b>Sirecom.ma</b></a>
     </>,
   ],
-  ["2020 - 2024", "Freelance : Création d'applications et de scripts d'automatisation."],
 ]
 
 export const languages = ["Anglais", "Français", "Arabe"]
@@ -261,7 +260,7 @@ export const competencies = [
   <p><b>Apprenant continu</b> et <b>autodidacte</b>.</p>,
   <p>Penseur critique et créatif.</p>,
   <p><b>Écoute active</b> et <b>excellent communicateur</b>.</p>,
-];
+]
 export const programmingLangues = {
   efficient: [
     "JavaScript/TypeScript/NodeJs",

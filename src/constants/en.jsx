@@ -187,11 +187,17 @@ export const education = [
       Baccalaureate in Life and Earth Science (SVT) at <b>Qadi Ayad High School</b>, Casablanca.
     </>,
   ],
-];
+]
 
 export const experiences = [
   [
-    "22 Jun - Now",
+    "Apr 2024 - now",
+    <>
+      Internship: Software Developer at  <a href="https://cactus.ma"><b>Cactus.ma</b></a>
+    </>,
+  ],
+  [
+    "Feb - Apr 2024",
     <>
       Internship: Fullstack Developer at <b>Rivertech</b>
     </>,
@@ -214,7 +220,6 @@ export const experiences = [
       Internship: Fullstack Developer at <a href="https://sirecom.ma"><b>Sirecom.ma</b></a>
     </>,
   ],
-  ["2020 - 2024", "Freelance: Creating applications and automation scripts."],
 ]
 
 export const languages = ["English", "French", "Arabic"]
@@ -235,7 +240,7 @@ export const competencies = [
   <p><b>Continuous learner</b> and <b>self-taught</b>.</p>,
   <p>Critical and out of the box thinker.</p>,
   <p><b>Active listener</b> and <b>great communicator</b>.</p>,
-];
+]
 
 export const projects = [
   {
