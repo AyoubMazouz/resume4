@@ -17,7 +17,7 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`font-black text-white text-5xl md:text-6xl lg:text-8xl tracking-wide mt-28 flex`}>
+          <h1 className={`font-black text-white text-5xl md:text-6xl lg:text-8xl tracking-wide mt-16 md:mt-28 flex`}>
             <AnimatedText text={`Hi, I'm ${fullName[1]}`} changeColorAt={20} />
           </h1>
           <p className={`text-sm sm:text-lg lg:text-xl xl:text-2xl mt-6 text-secondary max-w-[45ch]`}>
@@ -39,7 +39,7 @@ const Hero = () => {
 
       {/* <ComputersCanvas /> */}
 
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+      <div className="absolute bottom-6 md:bottom-24 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div
