@@ -2,7 +2,6 @@ import React from "react"
 import { About, Contact, Experience, Hero, Navbar, Tech, Projects, StarsCanvas } from "./components"
 import ProjectModel from "./components/ProjectModel"
 import { GlobalContextProvider } from "./contexts/globalContext"
-import { AnimatedText } from "./components/AnimatedText"
 
 const App = () => {
   return (
@@ -19,7 +18,9 @@ const App = () => {
         <Projects />
         <div className="relative z-0">
           <Contact />
-          <StarsCanvas />
+          <div className="hidden lg:block">
+            <StarsCanvas />
+          </div>
         </div>
       </div>
     </GlobalContextProvider>

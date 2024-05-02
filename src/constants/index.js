@@ -22,13 +22,14 @@ import {
   sericome,
   maxmind,
   amdd,
+  rivertech,
 } from "../assets"
 
 export const linkedinURL = "https://www.linkedin.com/in/ayoubmazouz/"
 export const githubURL = "https://github.com/ayoubmazouz"
 
 export const fullName = ["Mazouz", "Ayoub"]
-export const emailAddress = "ayoub2000mazouz@gmail.com"
+export const emailAddress = "contact@ayoubmazouz.com"
 export const phoneNumber = "07 70 75 91 06"
 
 export const heroSection = "I develop 3d User interfaces and web applications"
@@ -227,6 +228,17 @@ export const technologies = [
 ]
 
 export const experiences = [
+  {
+    title: "Fullstack Developer",
+    company_name: "Rivertech",
+    icon: rivertech,
+    iconBg: "#E6DEDD",
+    date: "Feb - Apr 2024",
+    points: [
+      "Creating and maintaining Customer project written in Laravel and Vue.",
+      "Creating landing pages for products",
+    ],
+  },
   {
     title: "Fullstack Developer",
     company_name: "AMDD",

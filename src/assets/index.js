@@ -27,6 +27,7 @@ import fsac from "./exp/fsac.jpeg"
 import sericome from "./exp/sericome.jpeg"
 import maxmind from "./exp/maxmind.png"
 import amdd from "./exp/amdd.png"
+import rivertech from "./exp/rivertech.jpg"
 
 export {
   logo,
@@ -56,4 +57,5 @@ export {
   sericome,
   maxmind,
   amdd,
+  rivertech,
 }

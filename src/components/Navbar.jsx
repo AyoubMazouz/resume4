@@ -101,7 +101,7 @@ const Navbar = () => {
                 transition: { duration: 0.3 },
               }}
               whileTap={{ scale: 0.8 }}
-              className="rounded-lg bg-accent hover:bg-transparent hover:border-2 hover:border-accent py-1.5 px-6 tracking-widest"
+              className="rounded-lg bg-accent hover:bg-transparent hover:ring-2 hover:ring-accent py-1.5 px-6 tracking-widest"
             >
               RESUME
             </motion.a>
@@ -112,20 +112,20 @@ const Navbar = () => {
           <img
             src={toggle ? close : menu}
             alt="menu"
-            className="w-[28px] h-[28px] object-contain"
+            className="w-[28px] h-[28px] object-contain cursor-pointer"
             onClick={() => setToggle(!toggle)}
           />
 
           <div
             className={`${
               !toggle ? "hidden" : "flex"
-            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+            } p-6 bg-primary border-2 absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-lg duration-400`}
           >
             <ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
               {navLinks.map((nav) => (
                 <li
                   key={nav.id}
-                  className={`font-poppins font-medium cursor-pointer text-[16px] ${
+                  className={`font-poppins font-medium cursor-pointer text-lg hover:text-white duration-200  ${
                     active === nav.title ? "text-white" : "text-secondary"
                   }`}
                   onClick={() => {
