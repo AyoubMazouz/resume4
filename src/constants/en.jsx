@@ -2,8 +2,8 @@ export const fullName = ["Mazouz", "Ayoub"]
 export const title = "Fullstack Developer"
 export const details = [
   "07 70 75 91 06",
-  "ayoub2000mazouz@gmail.com",
-  "https://ayoubmazouz.github.io",
+  "contact@ayoubmazouz.com",
+  "https://ayoubmazouz.com",
   "Sidi-Maârouf Lot Anna 4, Casablanca.",
 ]
 
@@ -191,15 +191,12 @@ export const education = [
 
 export const experiences = [
   [
-    "Apr 2024 - now",
-    <>
-      Internship: Software Developer at  <a href="https://cactus.ma"><b>Cactus.ma</b></a>
-    </>,
-  ],
-  [
     "Feb - Apr 2024",
     <>
-      Internship: Fullstack Developer at <b>Rivertech</b>
+      Internship: Fullstack Developer at{" "}
+      <a href="https://rivertech.ma">
+        <b>Rivertech.ma</b>
+      </a>
     </>,
   ],
   [
@@ -211,35 +208,79 @@ export const experiences = [
   [
     "Apr - Nov 2023",
     <>
-      Internship: Software Developer at <a href="https://maxmind.ma"><b>Maxmind.ma</b></a>
+      Internship: Software Developer at{" "}
+      <a href="https://maxmind.ma">
+        <b>Maxmind.ma</b>
+      </a>
     </>,
   ],
   [
     "Jun - Aug 2022",
     <>
-      Internship: Fullstack Developer at <a href="https://sirecom.ma"><b>Sirecom.ma</b></a>
+      Internship: Fullstack Developer at{" "}
+      <a href="https://sirecom.ma">
+        <b>Sirecom.ma</b>
+      </a>
     </>,
   ],
 ]
 
 export const languages = ["English", "French", "Arabic"]
 
+// export const competencies = [
+//   <p>Creation and maintenance of FullStack Apps.</p>,
+//   <p>Proficiency in version control (<b>git, github, gitlab</b>).</p>,
+//   <p>Managing and maintaining Databases including <b>SQL, Postgres, NoSQL</b>.</p>,
+//   <p>Proficient in full-stack development using <b>Laravel, React, Vue</b>.</p>,
+//   <p>Familiar with the latest trends in web development like <b>Svelte, Tailwind, Go, Next.js</b>, etc...</p>,
+//   <p>Familiar with no code tools and platforms such as <b>Wordpress, Shopify</b>, etc...</p>,
+//   <p>Can use <b>Docker</b> for development and deployment</p>,
+//   <p>Good understanding of different software architecture and design patterns.</p>,
+//   <p>Good sense of <b>UI design and user accessibility</b>.</p>,
+//   <p>Wide range of experience across different programming languages and frameworks.</p>,
+//   <p>Deep understanding of the web standards and best practices.</p>,
+//   <p>Can work independently and in a team environment.</p>,
+//   <p><b>Continuous learner</b> and <b>self-taught</b>.</p>,
+//   <p>Critical and out of the box thinker.</p>,
+//   <p><b>Active listener</b> and <b>great communicator</b>.</p>,
+// ]
 export const competencies = [
-  <p>Creation and maintenance of FullStack Apps.</p>,
-  <p>Proficiency in version control (<b>git, github, gitlab</b>).</p>,
-  <p>Managing and maintaining Databases including <b>SQL, Postgres, NoSQL</b>.</p>,
-  <p>Proficient in full-stack development using <b>Laravel, React, Vue</b>.</p>,
-  <p>Familiar with the latest trends in web development like <b>Svelte, Tailwind, Go, Next.js</b>, etc...</p>,
-  <p>Familiar with no code tools and platforms such as <b>Wordpress, Shopify</b>, etc...</p>,
-  <p>Can use <b>Docker</b> for development and deployment</p>,
-  <p>Good understanding of different software architecture and design patterns.</p>,
-  <p>Good sense of <b>UI design and user accessibility</b>.</p>,
-  <p>Wide range of experience across different programming languages and frameworks.</p>,
-  <p>Deep understanding of the web standards and best practices.</p>,
-  <p>Can work independently and in a team environment.</p>,
-  <p><b>Continuous learner</b> and <b>self-taught</b>.</p>,
-  <p>Critical and out of the box thinker.</p>,
-  <p><b>Active listener</b> and <b>great communicator</b>.</p>,
+  <p>Creation of Automation scripts.</p>,
+  <p>
+    Management and maintenance of databases including <b>SQL and NoSQL</b>.
+  </p>,
+  <p>
+    Proficient in FullStack development using <b>Laravel, React, Vue</b>.
+  </p>,
+  <p>
+    Familiar with the latest trends in web development such as <b>Svelte, Tailwind, Go, Next.js, Htmx, Vite</b>, etc...
+  </p>,
+  <p>
+    Familiar with using <b>Git</b> and <b>Pipeline (CI/CD)</b>.
+  </p>,
+  <p>
+    Familiar with advanced topics <b>WebSockets, GraphQL</b>, etc...
+  </p>,
+  <p>
+    Capable of configuring a secure Linux server for <b>Web</b> and <b>Email</b>, or with <b>Docker</b>...
+  </p>,
+  <p>
+    Familiarity with CMS <b>Wordpress, Shopify</b>
+  </p>,
+  <p>Good understanding of different software architectures and design patterns.</p>,
+  <p>
+    Good sense of <b>UI design and user accessibility</b>.
+  </p>,
+  <p>Extensive experience with various programming languages and frameworks.</p>,
+  <p>Thorough understanding of web standards and best practices.</p>,
+  <p>Ability to work independently and in a team.</p>,
+  <p>
+    <b>Continuous learner</b> and <b>self-taught</b>.
+  </p>,
+  <p>Critical and creative thinker.</p>,
+  <p>
+    <b>Active listener</b> and <b>excellent communicator</b>.
+  </p>,
 ]
 
 export const projects = [

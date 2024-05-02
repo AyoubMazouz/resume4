@@ -62,13 +62,13 @@ const App = () => {
         </Container>
         {/* Experience */}
         <Container title="Expérience">
-                <div className="space-y-2">
-          {experiences?.map((experience) => (
-            <div key={experience[1]} className="grid grid-cols-12">
-              <span className="col-span-3">{experience[0]}</span>
-              <span className="col-span-9">{experience[1]}</span>
-            </div>
-          ))}
+          <div className="space-y-2">
+            {experiences?.map((experience) => (
+              <div key={experience[1]} className="grid grid-cols-12">
+                <span className="col-span-3">{experience[0]}</span>
+                <span className="col-span-9">{experience[1]}</span>
+              </div>
+            ))}
           </div>
         </Container>
         {/* Grid */}
@@ -76,12 +76,12 @@ const App = () => {
         <Container title="Compétences">
           <div className="grid grid-cols-2 gap-4 mb-3">
             <ul className="list-disc ml-4 space-y-1">
-              {competencies.slice(0, competencies.length / 2 )?.map((competence) => (
+              {competencies.slice(0, competencies.length / 2 - 1)?.map((competence) => (
                 <li key={competence}>{competence}</li>
               ))}
             </ul>
             <ul className="list-disc ml-4 space-y-1">
-              {competencies.slice(competencies.length / 2  )?.map((competence) => (
+              {competencies.slice(competencies.length / 2 - 1)?.map((competence) => (
                 <li>{competence}</li>
               ))}
             </ul>

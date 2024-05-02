@@ -5,12 +5,12 @@ export const githubURL = "https://github.com/ayoubmazouz"
 
 export const fullName = ["Mazouz", "Ayoub"]
 export const title = "Développeur Fullstack"
-export const emailAddress = "ayoub2000mazouz@gmail.com"
+export const emailAddress = "contact@ayoubmazouz.com"
 export const phoneNumber = "07 70 75 91 06"
 export const details = [
   "07 70 75 91 06",
-  "ayoub2000mazouz@gmail.com",
-  "https://ayoubmazouz.github.io",
+  "contact@ayoubmazouz.com",
+  "https://ayoubmazouz.com",
   "Sidi-Maârouf Lot Anna 4, 14_6, Casablanca.",
 ]
 
@@ -197,47 +197,48 @@ export const technologies = [
 export const education = [
   [
     "2023 - 2024",
-    <>
-      Licence Professionnelle en Développement Informatique à l'Université Hassan II des Sciences à Casablanca.
-    </>,
+    <>Licence Professionnelle en Développement Informatique à l'Université Hassan II des Sciences à Casablanca.</>,
   ],
-  [
-    "2021 - 2023",
-    <>
-      Technicien Spécialisé en Infrastructure Informatique à l'ISFO (OFPPT) à Casablanca.
-    </>,
-  ],
-  [
-    "2019 - 2020",
-    <>
-      Baccalauréat en Sciences de la Vie et de la Terre (SVT) au Lycée Qadi Ayad, Casablanca.
-    </>,
-  ],
+  ["2021 - 2023", <>Technicien Spécialisé en Infrastructure Informatique à l'ISFO (OFPPT) à Casablanca.</>],
+  ["2019 - 2020", <>Baccalauréat en Sciences de la Vie et de la Terre (SVT) au Lycée Qadi Ayad, Casablanca.</>],
 ]
 
 export const experiences = [
   [
-    "Avr 2024 - now",
+    "Fév - Avr 2024",
     <>
-      Stage: Développeur de Logiciels chez  <a href="https://cactus.ma"><b>Cactus.ma</b></a>
+      Stage: Développeur Fullstack chez{" "}
+      <a href="https://rivertech.ma">
+        <b>Rivertech.ma</b>
+      </a>
     </>,
   ],
   [
     "Nov 2023 - Janv 2024",
     <>
-      Stage : Développeur Fullstack chez AMDD.
+      Stage : Développeur Fullstack chez{" "}
+      <a href="AMDD">
+        <b>AMDD</b>
+      </a>
+      .
     </>,
   ],
   [
     "Avr - Nov 2023",
     <>
-      Stage : Développeur de Logiciels chez <a href="https://maxmind.ma"><b>Maxmind.ma</b></a>
+      Stage : Développeur de Logiciels chez{" "}
+      <a href="https://maxmind.ma">
+        <b>Maxmind.ma</b>
+      </a>
     </>,
   ],
   [
     "Juin - Août 2022",
     <>
-      Stage : Développeur Fullstack chez <a href="https://sirecom.ma"><b>Sirecom.ma</b></a>
+      Stage : Développeur Fullstack chez{" "}
+      <a href="https://sirecom.ma">
+        <b>Sirecom.ma</b>
+      </a>
     </>,
   ],
 ]
@@ -245,21 +246,43 @@ export const experiences = [
 export const languages = ["Anglais", "Français", "Arabe"]
 
 export const competencies = [
-  <p>Création et maintenance d'applications FullStack.</p>,
-  <p>Maitrise de l'utilisation du <b>Git, Github</b> et <b>Gitlab</b>.</p>,
-  <p>Gestion et maintenance de bases de données incluant <b>SQL, Postgres, NoSQL</b>.</p>,
-  <p>Maitrise du développement Fullstack utilisant <b>Laravel, React, Vue</b>.</p>,
-  <p>Familiarité avec les dernières tendances en développement web comme <b>Svelte, Tailwind, Go, Next.js</b>, etc...</p>,
-  <p>Familiarité avec les outils et plateformes sans code tels que <b>Wordpress, Shopify</b>, etc...</p>,
-  <p>Capable d'utiliser <b>Docker</b> pour le développement et le déploiement.</p>,
+  <p>Création de scripts d'automatisation.</p>,
+  <p>
+    Gestion et maintenance de bases de données incluant <b>SQL and NoSQL</b>.
+  </p>,
+  <p>
+    Efficace en développement Fullstack utilisant <b>Laravel, React, Vue </b>.
+  </p>,
+  <p>
+    Familiarité avec les dernières tendances en développement web comme <b>Svelte, Tailwind, Go, Next.js, Htmx, Vite</b>
+    , etc...
+  </p>,
+  <p>
+    Maitrise de l'utilisation du <b>Git</b> et <b>Pipeline (CI/CD)</b>.
+  </p>,
+  <p>
+    Familiarité avec des sujets avancés <b>WebSockets, GraphQL</b>, etc...
+  </p>,
+  <p>
+    Capable de configurer un serveur Linux sécurisé pour <b>Web</b> et <b>Email</b>, ou avec <b>Docker</b>...
+  </p>,
+  <p>
+    Familiarité avec les CMS <b>Wordpress, Shopify</b>
+  </p>,
   <p>Bonne compréhension des différentes architectures logicielles et des patterns de design.</p>,
-  <p>Bon sens du <b>design UI et de l'accessibilité utilisateur</b>.</p>,
+  <p>
+    Bon sens du <b>design UI et de l'accessibilité utilisateur</b>.
+  </p>,
   <p>Large expérience avec différents langages de programmation et frameworks.</p>,
   <p>Compréhension approfondie des normes web et des meilleures pratiques.</p>,
   <p>Capacité à travailler de manière autonome et en équipe.</p>,
-  <p><b>Apprenant continu</b> et <b>autodidacte</b>.</p>,
+  <p>
+    <b>Apprenant continu</b> et <b>autodidacte</b>.
+  </p>,
   <p>Penseur critique et créatif.</p>,
-  <p><b>Écoute active</b> et <b>excellent communicateur</b>.</p>,
+  <p>
+    <b>Écoute active</b> et <b>excellent communicateur</b>.
+  </p>,
 ]
 export const programmingLangues = {
   efficient: [
