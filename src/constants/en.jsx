@@ -2,7 +2,7 @@ export const fullName = ["Mazouz", "Ayoub"]
 export const title = "Fullstack Developer"
 export const details = [
   "07 70 75 91 06",
-  "contact@ayoubmazouz.com",
+  "ayoub2000mazouz@gmail.com",
   "https://ayoubmazouz.com",
   "Sidi-Maârouf Lot Anna 4, Casablanca.",
 ]
@@ -193,9 +193,18 @@ export const experiences = [
   [
     "Feb - Apr 2024",
     <>
+      Internship: Fullstack & DevOps Engineer at{" "}
+      <a href="https://valhko.com">
+        <b>valhko</b>
+      </a>
+    </>,
+  ],
+  [
+    "Feb - Apr 2024",
+    <>
       Internship: Fullstack Developer at{" "}
       <a href="https://rivertech.ma">
-        <b>Rivertech.ma</b>
+        <b>Rivertech</b>
       </a>
     </>,
   ],
@@ -210,7 +219,7 @@ export const experiences = [
     <>
       Internship: Software Developer at{" "}
       <a href="https://maxmind.ma">
-        <b>Maxmind.ma</b>
+        <b>Maxmind</b>
       </a>
     </>,
   ],
@@ -219,7 +228,7 @@ export const experiences = [
     <>
       Internship: Fullstack Developer at{" "}
       <a href="https://sirecom.ma">
-        <b>Sirecom.ma</b>
+        <b>Sirecom</b>
       </a>
     </>,
   ],
@@ -250,24 +259,24 @@ export const competencies = [
     Management and maintenance of databases including <b>SQL and NoSQL</b>.
   </p>,
   <p>
-    Proficient in FullStack development using <b>Laravel, React, Vue</b>.
+    Proficient in FullStack development using <b>Laravel, Django, Nextjs/React, Vue, Tailwind...</b>.
   </p>,
   <p>
-    Familiar with the latest trends in web development such as <b>Svelte, Tailwind, Go, Next.js, Htmx, Vite</b>, etc...
+    Familiar with advanced topics <b>AI/RAG integration, WebSockets, GraphQL, Wasm</b>, etc...
   </p>,
   <p>
-    Familiar with using <b>Git</b> and <b>Pipeline (CI/CD)</b>.
+    Familiar with the latest trends in web development such as <b>Svelte, Go, Htmx, Rust</b>, etc...
+  </p>,
+  <p>Good understanding of different software architectures and design patterns.</p>,
+  <p>
+    Efficient with <b>Git</b> and <b>Pipeline (CI/CD)</b>.
   </p>,
   <p>
-    Familiar with advanced topics <b>WebSockets, GraphQL</b>, etc...
-  </p>,
-  <p>
-    Capable of configuring a secure Linux server for <b>Web</b> and <b>Email</b>, or with <b>Docker</b>...
+    Efficient at setting up <b>Azure</b> Infrastructure{" "}
   </p>,
   <p>
     Familiarity with CMS <b>Wordpress, Shopify</b>
   </p>,
-  <p>Good understanding of different software architectures and design patterns.</p>,
   <p>
     Good sense of <b>UI design and user accessibility</b>.
   </p>,

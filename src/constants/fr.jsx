@@ -5,11 +5,11 @@ export const githubURL = "https://github.com/ayoubmazouz"
 
 export const fullName = ["Mazouz", "Ayoub"]
 export const title = "Développeur Fullstack"
-export const emailAddress = "contact@ayoubmazouz.com"
+export const emailAddress = "ayoub2000mazouz@gmail.com"
 export const phoneNumber = "07 70 75 91 06"
 export const details = [
   "07 70 75 91 06",
-  "contact@ayoubmazouz.com",
+  "ayoub2000mazouz@gmail.com",
   "https://ayoubmazouz.com",
   "Sidi-Maârouf Lot Anna 4, 14_6, Casablanca.",
 ]
@@ -205,6 +205,15 @@ export const education = [
 
 export const experiences = [
   [
+    "Feb - Apr 2024",
+    <>
+      Internship: Fullstack & DevOps Engineer chez{" "}
+      <a href="https://valhko.com">
+        <b>valhko</b>
+      </a>
+    </>,
+  ],
+  [
     "Fév - Avr 2024",
     <>
       Stage: Développeur Fullstack chez{" "}
@@ -251,20 +260,19 @@ export const competencies = [
     Gestion et maintenance de bases de données incluant <b>SQL and NoSQL</b>.
   </p>,
   <p>
-    Efficace en développement Fullstack utilisant <b>Laravel, React, Vue </b>.
+    Efficace en développement Fullstack utilisant <b>Laravel, Django, Nextjs/React, Vue, Tailwind...</b>.
   </p>,
   <p>
-    Familiarité avec les dernières tendances en développement web comme <b>Svelte, Tailwind, Go, Next.js, Htmx, Vite</b>
-    , etc...
+    Familiarité avec les dernières tendances en développement web comme <b>Svelte, Go, Htmx, Rust</b>, etc...
   </p>,
   <p>
     Maitrise de l'utilisation du <b>Git</b> et <b>Pipeline (CI/CD)</b>.
   </p>,
   <p>
-    Familiarité avec des sujets avancés <b>WebSockets, GraphQL</b>, etc...
+    Familiarité avec des sujets avancés <b>AI/RAG integration, WebSockets, GraphQL, Wasm</b>, etc...
   </p>,
   <p>
-    Capable de configurer un serveur Linux sécurisé pour <b>Web</b> et <b>Email</b>, ou avec <b>Docker</b>...
+    Efficient at setting up <b>Azure</b> Infrastructure
   </p>,
   <p>
     Familiarité avec les CMS <b>Wordpress, Shopify</b>
