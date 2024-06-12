@@ -9,7 +9,7 @@ import {
   languages,
   competencies,
   projects,
-} from "./en"
+} from "./fr"
 
 export {
   fullName,

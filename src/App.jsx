@@ -4,7 +4,7 @@ import { Icon } from "@iconify/react"
 
 const Container = ({ title, children }) => {
   return (
-    <div className={`relative px-4 py-4`}>
+    <div className={`relative px-4 py-2`}>
       <div className={`px-4 text-lg border-t border-b border-primary uppercase text-primary font-bold`}>{title}</div>
       <div className="mt-3">{children}</div>
     </div>
@@ -17,7 +17,7 @@ const App = () => {
 
       <div className="w-[210mm] h-[297mm] mx-auto bg-light rounded-xl overflow-hidden">
         {/* Header */}
-        <div className="flex gap-x-4 bg-primary p-4 bg-[url('/herobg.png')] bg-cover bg-center">
+        <div className="flex gap-x-4 bg-primary p-4 bg-[url('/herobg.png')] bg-cover bg-center mb-1">
           <div className="h-[175px] min-w-[175px] aspect-square shadow  rounded-lg overflow-hidden">
             <img src="/profile.jpg" className="w-full h-full object-cover" />
           </div>
@@ -76,12 +76,12 @@ const App = () => {
         <Container title="Compétences">
           <div className="grid grid-cols-2 gap-4 mb-3">
             <ul className="list-disc ml-4 space-y-1">
-              {competencies.slice(0, competencies.length / 2 - 1)?.map((competence) => (
+              {competencies.slice(0, competencies.length / 2)?.map((competence) => (
                 <li key={competence}>{competence}</li>
               ))}
             </ul>
             <ul className="list-disc ml-4 space-y-1">
-              {competencies.slice(competencies.length / 2 - 1)?.map((competence) => (
+              {competencies.slice(competencies.length / 2)?.map((competence) => (
                 <li>{competence}</li>
               ))}
             </ul>

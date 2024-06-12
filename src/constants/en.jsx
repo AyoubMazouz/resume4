@@ -193,103 +193,99 @@ export const experiences = [
   [
     "Feb - Apr 2024",
     <>
-      Internship: Fullstack & DevOps Engineer at{" "}
-      <a href="https://valhko.com">
-        <b>valhko</b>
-      </a>
+      <div>
+        <h2 className="underline">
+          {" "}
+          Internship: Fullstack & DevOps Engineer at{" "}
+          <a href="https://valhko.com">
+            <b>valhko</b>
+          </a>
+        </h2>
+      </div>
+      <ul className="list-disc ml-4">
+        <li>
+          Started Development on full-stack application using <b>Django, Nextjs, TailwindCSS, PostgreSQL, OpenAi</b>.
+        </li>
+        <li>Manage a team of interns and provide guidance and distribute tasks.</li>
+        <li>Data mining using LLMs and headless browsers.</li>
+        <li>
+          Manage and administer resources on <b>Azure</b> and Setup pipelines.
+        </li>
+        <li>
+          In the process of creating a <b>RAG</b> on top of Postgres database.
+        </li>
+      </ul>
     </>,
   ],
   [
     "Feb - Apr 2024",
     <>
-      Internship: Fullstack Developer at{" "}
-      <a href="https://rivertech.ma">
-        <b>Rivertech</b>
-      </a>
+      <div>
+        <h2 className="underline">
+          Internship: Fullstack Developer at{" "}
+          <a href="https://rivertech.ma">
+            <b>Rivertech</b>
+          </a>
+        </h2>
+      </div>
+      <ul className="list-disc ml-4">
+        <li>
+          Created the company website using <b>Vue, Laravel, TailwindCSS, PostgesSQL</b>.
+        </li>
+        <li>Help in the development of other projects.</li>
+      </ul>
     </>,
   ],
   [
     "Nov 2023 - Jan 2024",
     <>
-      Internship: Fullstack Developer at <b>AMDD</b>.
+      <div>
+        <h2 className="underline">
+          Internship: Fullstack Developer at <b>AMDD</b>.
+        </h2>
+      </div>
+      <ul className="list-disc ml-4">
+        <li>
+          Aided in developing the OFPPT platform. (<b>Laravel, React, Bootstrap, MySQL</b>)
+        </li>
+      </ul>
     </>,
   ],
   [
     "Apr - Nov 2023",
     <>
-      Internship: Software Developer at{" "}
-      <a href="https://maxmind.ma">
-        <b>Maxmind</b>
-      </a>
-    </>,
-  ],
-  [
-    "Jun - Aug 2022",
-    <>
-      Internship: Fullstack Developer at{" "}
-      <a href="https://sirecom.ma">
-        <b>Sirecom</b>
-      </a>
+      <div>
+        <h2 className="underline">
+          Internship: Software Developer at{" "}
+          <a href="https://maxmind.ma">
+            <b>Maxmind</b>
+          </a>
+        </h2>
+      </div>
+      <ul className="list-disc ml-4">
+        <li>
+          Developed a module for PerfexCRM enabling Facebook page management through a centralized dashboard using{" "}
+          <b>Codeigniter</b>.
+        </li>
+        <li>
+          Created a Chrome extension that scrapes Facebook posts, feeding the data into a database for a real estate
+          e-commerce website. (<b>Svelte, TailwindCSS, ChromeAPI, OpenAI</b>)
+        </li>
+      </ul>
     </>,
   ],
 ]
 
 export const languages = ["English", "French", "Arabic"]
 
-// export const competencies = [
-//   <p>Creation and maintenance of FullStack Apps.</p>,
-//   <p>Proficiency in version control (<b>git, github, gitlab</b>).</p>,
-//   <p>Managing and maintaining Databases including <b>SQL, Postgres, NoSQL</b>.</p>,
-//   <p>Proficient in full-stack development using <b>Laravel, React, Vue</b>.</p>,
-//   <p>Familiar with the latest trends in web development like <b>Svelte, Tailwind, Go, Next.js</b>, etc...</p>,
-//   <p>Familiar with no code tools and platforms such as <b>Wordpress, Shopify</b>, etc...</p>,
-//   <p>Can use <b>Docker</b> for development and deployment</p>,
-//   <p>Good understanding of different software architecture and design patterns.</p>,
-//   <p>Good sense of <b>UI design and user accessibility</b>.</p>,
-//   <p>Wide range of experience across different programming languages and frameworks.</p>,
-//   <p>Deep understanding of the web standards and best practices.</p>,
-//   <p>Can work independently and in a team environment.</p>,
-//   <p><b>Continuous learner</b> and <b>self-taught</b>.</p>,
-//   <p>Critical and out of the box thinker.</p>,
-//   <p><b>Active listener</b> and <b>great communicator</b>.</p>,
-// ]
 export const competencies = [
-  <p>Creation of Automation scripts.</p>,
-  <p>
-    Management and maintenance of databases including <b>SQL and NoSQL</b>.
-  </p>,
-  <p>
-    Proficient in FullStack development using <b>Laravel, Django, Nextjs/React, Vue, Tailwind...</b>.
-  </p>,
-  <p>
-    Familiar with advanced topics <b>AI/RAG integration, WebSockets, GraphQL, Wasm</b>, etc...
-  </p>,
-  <p>
-    Familiar with the latest trends in web development such as <b>Svelte, Go, Htmx, Rust</b>, etc...
-  </p>,
-  <p>Good understanding of different software architectures and design patterns.</p>,
-  <p>
-    Efficient with <b>Git</b> and <b>Pipeline (CI/CD)</b>.
-  </p>,
-  <p>
-    Efficient at setting up <b>Azure</b> Infrastructure{" "}
-  </p>,
-  <p>
-    Familiarity with CMS <b>Wordpress, Shopify</b>
-  </p>,
+  <p>Good understanding of cloud and software architectures and design patterns.</p>,
   <p>
     Good sense of <b>UI design and user accessibility</b>.
   </p>,
+  <p>Ability to work independently and in a team.</p>,
   <p>Extensive experience with various programming languages and frameworks.</p>,
   <p>Thorough understanding of web standards and best practices.</p>,
-  <p>Ability to work independently and in a team.</p>,
-  <p>
-    <b>Continuous learner</b> and <b>self-taught</b>.
-  </p>,
-  <p>Critical and creative thinker.</p>,
-  <p>
-    <b>Active listener</b> and <b>excellent communicator</b>.
-  </p>,
 ]
 
 export const projects = [

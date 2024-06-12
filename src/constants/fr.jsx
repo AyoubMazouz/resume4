@@ -205,49 +205,89 @@ export const education = [
 
 export const experiences = [
   [
-    "Feb - Apr 2024",
+    "Fév - Avr 2024",
     <>
-      Internship: Fullstack & DevOps Engineer chez{" "}
-      <a href="https://valhko.com">
-        <b>valhko</b>
-      </a>
+      <div>
+        <h2 className="underline">
+          {" "}
+          Stage : Ingénieur Fullstack & DevOps chez{" "}
+          <a href="https://valhko.com">
+            <b>valhko</b>
+          </a>
+        </h2>
+      </div>
+      <ul className="list-disc ml-4">
+        <li>
+          Développement d'une application full-stack utilisant <b>Django, Nextjs, TailwindCSS, PostgreSQL, OpenAi</b>.
+        </li>
+        <li>Gestion d'une équipe de stagiaires, fournir des conseils et répartir les tâches.</li>
+        <li>
+          Exploration de données en utilisant des <b>LLMs</b> et des navigateurs sans tête.
+        </li>
+        <li>
+          Gestion et administration des ressources sur <b>Azure</b>.
+        </li>
+        <li>
+          En cours de création d'un <b>RAG</b> sur une base de données Postgres.
+        </li>
+      </ul>
     </>,
   ],
   [
     "Fév - Avr 2024",
     <>
-      Stage: Développeur Fullstack chez{" "}
-      <a href="https://rivertech.ma">
-        <b>Rivertech.ma</b>
-      </a>
+      <div>
+        <h2 className="underline">
+          Stage : Développeur Fullstack chez{" "}
+          <a href="https://rivertech.ma">
+            <b>Rivertech</b>
+          </a>
+        </h2>
+      </div>
+      <ul className="list-disc ml-4">
+        <li>
+          Création du site web de l'entreprise (<b>Vue, Laravel, TailwindCSS, PostgreSQL</b>).
+        </li>
+        <li>Aide au développement d'autres projets.</li>
+      </ul>
     </>,
   ],
   [
-    "Nov 2023 - Janv 2024",
+    "Nov 2023 - Jan 2024",
     <>
-      Stage : Développeur Fullstack chez{" "}
-      <a href="AMDD">
-        <b>AMDD</b>
-      </a>
-      .
+      <div>
+        <h2 className="underline">
+          Stage : Développeur Fullstack chez <b>AMDD</b>.
+        </h2>
+      </div>
+      <ul className="list-disc ml-4">
+        <li>
+          Développement de la plateforme OFPPT. (<b>Laravel, React, Bootstrap, MySQL</b>)
+        </li>
+      </ul>
     </>,
   ],
   [
     "Avr - Nov 2023",
     <>
-      Stage : Développeur de Logiciels chez{" "}
-      <a href="https://maxmind.ma">
-        <b>Maxmind.ma</b>
-      </a>
-    </>,
-  ],
-  [
-    "Juin - Août 2022",
-    <>
-      Stage : Développeur Fullstack chez{" "}
-      <a href="https://sirecom.ma">
-        <b>Sirecom.ma</b>
-      </a>
+      <div>
+        <h2 className="underline">
+          Stage : Développeur logiciel chez{" "}
+          <a href="https://maxmind.ma">
+            <b>Maxmind</b>
+          </a>
+        </h2>
+      </div>
+      <ul className="list-disc ml-4">
+        <li>
+          Développement d'un module pour PerfexCRM permettant la gestion des pages Facebook via un tableau de bord
+          centralisé en utilisant <b>Codeigniter</b>.
+        </li>
+        <li>
+          Création d'une extension Chrome qui scrape les publications Facebook et envoie les données dans une base de
+          données pour un site e-commerce immobilier. (<b>Svelte, TailwindCSS, ChromeAPI, OpenAI</b>)
+        </li>
+      </ul>
     </>,
   ],
 ]
@@ -255,42 +295,10 @@ export const experiences = [
 export const languages = ["Anglais", "Français", "Arabe"]
 
 export const competencies = [
-  <p>Création de scripts d'automatisation.</p>,
-  <p>
-    Gestion et maintenance de bases de données incluant <b>SQL and NoSQL</b>.
-  </p>,
-  <p>
-    Efficace en développement Fullstack utilisant <b>Laravel, Django, Nextjs/React, Vue, Tailwind...</b>.
-  </p>,
-  <p>
-    Familiarité avec les dernières tendances en développement web comme <b>Svelte, Go, Htmx, Rust</b>, etc...
-  </p>,
-  <p>
-    Maitrise de l'utilisation du <b>Git</b> et <b>Pipeline (CI/CD)</b>.
-  </p>,
-  <p>
-    Familiarité avec des sujets avancés <b>AI/RAG integration, WebSockets, GraphQL, Wasm</b>, etc...
-  </p>,
-  <p>
-    Efficient at setting up <b>Azure</b> Infrastructure
-  </p>,
-  <p>
-    Familiarité avec les CMS <b>Wordpress, Shopify</b>
-  </p>,
   <p>Bonne compréhension des différentes architectures logicielles et des patterns de design.</p>,
-  <p>
-    Bon sens du <b>design UI et de l'accessibilité utilisateur</b>.
-  </p>,
   <p>Large expérience avec différents langages de programmation et frameworks.</p>,
   <p>Compréhension approfondie des normes web et des meilleures pratiques.</p>,
   <p>Capacité à travailler de manière autonome et en équipe.</p>,
-  <p>
-    <b>Apprenant continu</b> et <b>autodidacte</b>.
-  </p>,
-  <p>Penseur critique et créatif.</p>,
-  <p>
-    <b>Écoute active</b> et <b>excellent communicateur</b>.
-  </p>,
 ]
 export const programmingLangues = {
   efficient: [
