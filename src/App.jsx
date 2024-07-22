@@ -12,7 +12,7 @@ const Container = ({ title, children }) => {
 }
 const App = () => {
   return (
-    <div className="py-2 space-y-3 print:space-y-0 print:py-0 text-dark text-sm font-dm leading-[1.2rem] bg-gray-900">
+    <div className="py-2 space-y-3 print:space-y-0 print:py-0 text-dark text-xs font-dm leading-[.95rem] bg-gray-900">
       {/* <CoverLetter /> */}
 
       <div className="w-[210mm] h-[297mm] mx-auto bg-light rounded-xl overflow-hidden">

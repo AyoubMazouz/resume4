@@ -26,6 +26,21 @@ export const experiences = [
   [
     "Juin 2023 - Post actuel",
     <>
+      <h1 className="font-semibold">Consultant support technique/Relai du périmètre GDEP (PSA)</h1>
+      <h1 className="font-semibold">Support technique des TEC auprès de STELLANTIS (PSA FCA)</h1>
+      <ul className="list-disc list-inside">
+        <li> Analyse des données d'entrées et des demandes d'évolution.</li>
+        <li>Motorisation diesel et chaîne de transmission DEEP.</li>
+        <li>Télématique et véhicule connecté TMCV.</li>
+        <li>Systèmes châssis CHBO.</li>
+        <li>Motorisation essence GEGH.</li>
+        <li>ADAS.</li>
+      </ul>
+    </>,
+  ],
+  [
+    "Juin 2023 - Juin",
+    <>
       <h1 className="font-semibold">Développeur outils de diagnostic automobile niveau 3</h1>
       <ul className="list-disc list-inside">
         <li> Analyse des données d'entrées et des demandes d'évolution.</li>
