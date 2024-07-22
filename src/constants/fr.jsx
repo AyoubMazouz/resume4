@@ -205,7 +205,16 @@ export const education = [
 
 export const experiences = [
   [
-    "Feb - Apr 2024",
+    "Juil - Actuellement",
+    <>
+      Internship: Développeur Backend chez{" "}
+      <a href="https://ariagroup.io/">
+        <b>Aria</b>
+      </a>
+    </>,
+  ],
+  [
+    "Mai - Juil 2024",
     <>
       Internship: Fullstack & DevOps Engineer chez{" "}
       <a href="https://valhko.com">
@@ -223,7 +232,7 @@ export const experiences = [
     </>,
   ],
   [
-    "Nov 2023 - Janv 2024",
+    "Nov - Janv 2024",
     <>
       Stage : Développeur Fullstack chez{" "}
       <a href="AMDD">
