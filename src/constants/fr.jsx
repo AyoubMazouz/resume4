@@ -24,7 +24,7 @@ export const education = [
 
 export const experiences = [
   [
-    "Juin 2023 - Post actuel",
+    "Juin 2024 - Poste actuel",
     <>
       <h1 className="font-semibold">Consultant support technique/Relai du périmètre GDEP (PSA)</h1>
       <h1 className="font-semibold">Support technique des TEC auprès de STELLANTIS (PSA FCA)</h1>
@@ -39,7 +39,7 @@ export const experiences = [
     </>,
   ],
   [
-    "Juin 2023 - Juin",
+    "Juin 2023 - Juin 2024",
     <>
       <h1 className="font-semibold">Développeur outils de diagnostic automobile niveau 3</h1>
       <ul className="list-disc list-inside">
