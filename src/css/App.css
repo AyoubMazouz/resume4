@@ -554,10 +554,6 @@ video {
   grid-column: span 3 / span 3;
 }
 
-.col-span-6{
-  grid-column: span 6 / span 6;
-}
-
 .col-span-9{
   grid-column: span 9 / span 9;
 }
@@ -888,11 +884,6 @@ video {
 .text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-xs{
-  font-size: 0.75rem;
-  line-height: 1rem;
 }
 
 .font-black{

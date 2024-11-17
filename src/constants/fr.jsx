@@ -24,5 +24,13 @@ export const languages = (
 export const competencies = [
   "Connaissance de Microsoft Office",
   "Bon communicateur et auditeur actif",
+  "Connaissances de base en matière de mobilité automobile",
   "Apprend vite et est indépendant, nécessite peu de supervision",
+  "Accueillir, conseiller et satisfaire les clients.",
+  "Organiser et réapprovisionner les produits.",
+  "Gérer les paiements et les transactions.",
+  "Maintenir un environnement propre et ordonné.",
+  "Collaborer efficacement avec les collègues.",
+  "Prioriser et gérer les tâches en période de rush.",
+  "Réagir rapidement aux besoins changeants.",
 ]
