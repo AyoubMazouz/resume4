@@ -1,10 +1,10 @@
 import React from "react"
-import { competencies, details, education, experiences, fullName, languages, technologies, title } from "./constants"
+import { competencies, details, education, experiences, fullName, languages, title } from "./constants"
 import { Icon } from "@iconify/react"
 
 const Container = ({ title, children }) => {
   return (
-    <div className={`relative px-4 py-3`}>
+    <div className={`relative px-5 py-3`}>
       <div className={`px-4 text-lg border-t border-b border-primary uppercase text-primary font-bold`}>{title}</div>
       <div className="mt-3">{children}</div>
     </div>
@@ -55,7 +55,7 @@ const App = () => {
             {education?.map((education) => (
               <div key={education[1]} className="grid grid-cols-12">
                 <span className="col-span-3">{education[0]}</span>
-                <span className="col-span-9">{education[1]}</span>
+                <span className="col-span-9 -ml-4">{education[1]}</span>
               </div>
             ))}
           </div>
@@ -66,7 +66,7 @@ const App = () => {
             {experiences?.map((experience) => (
               <div key={experience[1]} className="grid grid-cols-12">
                 <span className="col-span-3">{experience[0]}</span>
-                <span className="col-span-9">{experience[1]}</span>
+                <span className="col-span-9 -ml-4">{experience[1]}</span>
               </div>
             ))}
           </div>
@@ -90,20 +90,6 @@ const App = () => {
 
         {/* Languages */}
         <Container title="langues">{languages.join(", ")}</Container>
-
-        {/* <Container title="Technical Skills">
-          <div className="flex flex-wrap items-center grid-cols-12 gap-4 justify-center overflow-hidden">
-            {technologies.map((tech, index) =>
-              tech?.name ? (
-                <div key={tech.icon} className="tech-grid-item w-8 h-8 group flex justify-center items-center">
-                  <Icon icon={tech.icon} width={tech?.scale ? tech?.scale * 96 : 96} className={`${tech.class}`} />
-                </div>
-              ) : (
-                <div className="h-8 w-8"></div>
-              ),
-            )}
-          </div>
-        </Container> */}
       </div>
     </div>
   )

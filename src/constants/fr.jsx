@@ -4,12 +4,12 @@ export const linkedinURL = "https://www.linkedin.com/in/ayoubmazouz/"
 export const githubURL = "https://github.com/ayoubmazouz"
 
 export const fullName = ["Mazouz", "Ayoub"]
-export const title = "Développeur Fullstack"
-export const emailAddress = "ayoub2000mazouz@gmail.com"
+export const title = "Ingénieur Développement et d'Études"
+export const emailAddress = "ayoub.mazouz@outlook.com"
 export const phoneNumber = "07 70 75 91 06"
 export const details = [
   "07 70 75 91 06",
-  "ayoub2000mazouz@gmail.com",
+  "ayoub.mazouz@outlook.com",
   "https://ayoubmazouz.com",
   "Sidi-Maârouf Lot Anna 4, 14_6, Casablanca.",
 ]
