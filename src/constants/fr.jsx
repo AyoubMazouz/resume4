@@ -45,35 +45,9 @@ export const education = [
 export const experiences = [
   [
     <span className="flex gap-2">
-      <div className="w-7">Mar</div>
-      <span>-</span>
-      <div className="w-20">
-        Maintenant
-        <br />
-        <div>2025</div>
-      </div>
-    </span>,
-    <>
-      <div className="font-semibold underline mb-1">
-        Temps plein : Ingénieur DevOps chez{" "}
-        <a href="https://ariagroup.io/">
-          <span className="font-bold italic">AriaTech (Accolade SA)</span>
-        </a>
-      </div>
-      <ul className="list-disc ml-12 space-y-2">
-        <li>
-          Transition vers un rôle d'ingénieur DevOps tout en continuant à développer le{" "}
-          <b>module de transport pour Nawrass.</b>
-        </li>
-      </ul>
-    </>,
-  ],
-  [
-    <span className="flex gap-2">
       <div className="w-7">Sep</div>
       <span>-</span>
-      <div className="w-8">Mar</div>
-      <span>2025</span>
+      <div className="w-8">Maintenant</div>
     </span>,
     <>
       <div className="font-semibold underline mb-1">
@@ -85,16 +59,12 @@ export const experiences = [
       <ul className="list-disc ml-12 space-y-2">
         <li>
           Développement d'une <b>application full-stack pour gérer l'assurance des 'Associations de Bain'</b>,
-          remplaçant une version obsolète et non sécurisée. La nouvelle application a élargi les fonctionnalités, inclus
-          des aspects de gestion supplémentaires, et a passé l'audit annuel avec une excellente note. Elle a ensuite été{" "}
-          <b>utilisée comme base pour un projet futur</b>.
+          remplaçant une version obsolète. La nouvelle application a élargi les fonctionnalités, inclus des aspects de
+          gestion supplémentaires, et a passé l'audit annuel avec une <b>excellente note.</b>.
         </li>
         <li>
           Refactorisation du module de transport dans 'Nawrass', le système principal pour gérer les activités du{" "}
           <b>groupe AFMA, de ses clients et collaborateurs.</b>
-        </li>
-        <li>
-          Recherche sur les outils et solutions <b>open-source</b>.
         </li>
       </ul>
     </>,
@@ -115,8 +85,8 @@ export const experiences = [
       </div>
       <ul className="list-disc ml-12 space-y-2">
         <li>
-          Développement d'une solution automatisée pour l'échange de données concernant les certificats d'assurance
-          entre <b>Afma et Autohall.</b>
+          Développement d'une solution automatisée pour l'échange de données concernant d'assurance entre{" "}
+          <b>Afma et Autohall.</b>
         </li>
       </ul>
     </>,
@@ -145,14 +115,14 @@ export const experiences = [
     </>,
   ],
   [
-    <span className="flex gap-2 mt-16">
+    <span className="flex gap-2 mt-20">
       <div className="w-7">Fév</div>
       <span>-</span>
       <div className="w-8">Avr</div>
       <span>2024</span>
     </span>,
     <>
-      <div className="font-semibold underline mb-1 mt-16">
+      <div className="font-semibold underline mb-1 mt-20">
         Stage : Développeur Fullstack chez{" "}
         <a href="https://rivertech.ma">
           <span className="font-bold italic">Rivertech</span>
@@ -219,7 +189,6 @@ export const competencies = [
   </p>,
   <p>Expérience générale et compréhension des différents langages de programmation et frameworks.</p>,
   <p>Bonne compréhension des normes web et des meilleures pratiques.</p>,
-  <p>Penseur critique et créatif.</p>,
   <p>
     <b>Apprenant continu</b> et <b>autodidacte</b>.
   </p>,
