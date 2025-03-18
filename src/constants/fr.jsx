@@ -45,9 +45,9 @@ export const education = [
 export const experiences = [
   [
     <span className="flex gap-2">
-      <div className="w-7">Sep</div>
+      <div>Sep 2024</div>
       <span>-</span>
-      <div className="w-8">Maintenant</div>
+      <div className="w-8">Présent</div>
     </span>,
     <>
       <div className="font-semibold underline mb-1">
