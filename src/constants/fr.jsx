@@ -4,7 +4,7 @@ export const linkedinURL = "https://www.linkedin.com/in/ayoubmazouz/"
 export const githubURL = "https://github.com/ayoubmazouz"
 
 export const fullName = ["Mazouz", "Ayoub"]
-export const title = "Ingénieur Développement et d'Études"
+export const title = "Ingénieur DevSecOps"
 export const emailAddress = "ayoub.mazouz@outlook.com"
 export const phoneNumber = "07 70 75 91 06"
 export const details = [
@@ -18,8 +18,7 @@ export const education = [
   [
     <span className="flex gap-2">2024</span>,
     <p>
-      <b>Certifié en sécurité OWASP (Secure Coding - Secure Application Development)</b> par Oriensys Solutions -
-      AriaTech.
+      <b>Certifié en sécurité OWASP (Secure Coding - Secure Application Development)</b> par Oriensys Solutions.
     </p>,
   ],
   [
@@ -44,10 +43,51 @@ export const education = [
 
 export const experiences = [
   [
-    <span className="flex gap-2">
-      <div>Sep 2024</div>
-      <span>-</span>
-      <div className="w-8">Présent</div>
+    <span className="">
+      <div className="flex gap-2">
+        <span>Mars 2025</span> <span>-</span>
+      </div>
+      <div>Présent</div>
+    </span>,
+    <>
+      <div className="font-semibold underline mb-1">
+        Temps plein : Ingénieur DevSecOps chez{" "}
+        <a href="https://ariagroup.io/">
+          <span className="font-bold italic">AriaTech (Accolade SA)</span>
+        </a>
+      </div>
+      <ul className="list-disc ml-12 space-y-2">
+        <li>
+          Mise en place et gestion d'une solution de <b>monitoring serveur et applicatif</b> avec <b>Prometheus</b> et{" "}
+          <b>Grafana</b>.
+        </li>
+        <li>
+          Conception et déploiement d'une <b>plateforme DevSecOps</b> pour automatiser la sécurité dans les pipelines
+          <b>(CI/CD) sur GitLab</b>.
+          <li>
+            Intégration d'outils de sécurité pour l'analyse automatisée :
+            <ul className="list-disc ml-12 space-y-2">
+              <li>
+                <b>SAST</b> (Analyse Statique) avec <b>SonarQube</b>.
+              </li>
+              <li>
+                <b>DAST</b> (Analyse Dynamique) avec <b>OWASP ZAP</b>.
+              </li>
+              <li>
+                <b>SCA</b> (Analyse des Dépendances) avec <b>OWASP Dependency-Check</b>.
+              </li>
+            </ul>
+          </li>
+        </li>
+      </ul>
+    </>,
+  ],
+  [
+    <span className="">
+      <div className="flex gap-2">
+        <span>Juil 2024</span> <span>-</span>
+      </div>
+      <div>Mars 2025</div>
     </span>,
     <>
       <div className="font-semibold underline mb-1">
@@ -63,43 +103,24 @@ export const experiences = [
           gestion supplémentaires, et a passé l'audit annuel avec une <b>excellente note.</b>.
         </li>
         <li>
-          Refactorisation du module de transport dans 'Nawrass', le système principal pour gérer les activités du{" "}
-          <b>groupe AFMA, de ses clients et collaborateurs.</b>
+          Refactorisation du module de transport dans 'Nawrass', le système principal pour gérer les activités d'
+          <b>AFMA.</b>
         </li>
-      </ul>
-    </>,
-  ],
-  [
-    <span className="flex gap-2">
-      <div className="w-7">Jul</div>
-      <span>-</span>
-      <div className="w-8">Sep</div>
-      <span>2024</span>
-    </span>,
-    <>
-      <div className="font-semibold underline mb-1">
-        Stage : Ingénieur de développement et d'études chez{" "}
-        <a href="https://ariagroup.io/">
-          <span className="font-bold italic">AriaTech (Accolade SA)</span>
-        </a>
-      </div>
-      <ul className="list-disc ml-12 space-y-2">
         <li>
-          Développement d'une solution automatisée pour l'échange de données concernant d'assurance entre{" "}
-          <b>Afma et Autohall.</b>
+          Développement d'une solution automatisée pour l'échange de données entre <b>Afma et Autohall.</b>
         </li>
       </ul>
     </>,
   ],
   [
-    <span className="flex gap-2">
+    <span className="flex gap-2 mt-20">
       <div className="w-7">Mai</div>
       <span>-</span>
       <div className="w-8">Jul</div>
       <span>2024</span>
     </span>,
     <>
-      <div className="font-semibold underline mb-1">
+      <div className="font-semibold underline mb-1 mt-20">
         Stage : Développeur Fullstack & DevOps chez{" "}
         <a href="https://valhko.com">
           <span className="font-bold italic">Valhko</span>
@@ -115,14 +136,14 @@ export const experiences = [
     </>,
   ],
   [
-    <span className="flex gap-2 mt-20">
+    <span className="flex gap-2">
       <div className="w-7">Fév</div>
       <span>-</span>
       <div className="w-8">Avr</div>
       <span>2024</span>
     </span>,
     <>
-      <div className="font-semibold underline mb-1 mt-20">
+      <div className="font-semibold underline mb-1">
         Stage : Développeur Fullstack chez{" "}
         <a href="https://rivertech.ma">
           <span className="font-bold italic">Rivertech</span>
@@ -200,7 +221,7 @@ export const competencies = [
     <b>meilleures pratiques de sécurité et des mesures de protection des données</b>.
   </p>,
   <p>
-    Capacité à <b>s'adapter rapidement</b> aux nouvelles technologies et frameworks.
+    Capacité à <b>s'adapter rapidement</b> aux nouvelles technologies.
   </p>,
   <p>
     Fortes <b>compétences organisationnelles</b> et attention aux détails.
