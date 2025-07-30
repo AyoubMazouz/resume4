@@ -1,25 +1,35 @@
 import React from "react"
-import { competencies, details, education, experiences, fullName, languages, title, internships, profile } from "./constants"
+import {
+  competencies,
+  details,
+  education,
+  experiences,
+  fullName,
+  languages,
+  title,
+  internships,
+  profile,
+} from "./constants"
 import { Icon } from "@iconify/react"
 
 const Container = ({ title, children }) => {
   return (
-    <div className={`relative px-4 mt-6`}>
+    <div className={`relative px-4 mt-4`}>
       <div className={`px-4 text-lg border-t border-b border-primary uppercase text-primary font-bold`}>{title}</div>
-      <div className="mt-3">{children}</div>
+      <div className="mt-2 text-sm">{children}</div>
     </div>
   )
 }
 const App = () => {
   return (
-    <div className="py-3 space-y-5 print:space-y-0 print:py-0 text-dark font-dm leading-[1.3] bg-gray-900">
+    <div className="py-3 space-y-5 print:space-y-0 print:py-0 text-dark font-dm leading-[1.3] bg-gray-900 text-[11px]">
       {/* <CoverLetter /> */}
 
       <div className="w-[210mm] h-[297mm] mx-auto bg-light rounded-xl overflow-hidden">
         {/* Header */}
         <div className="flex gap-x-4 bg-primary p-4  bg-[url('/herobg.png')] bg-cover bg-center">
           <div className="h-[165px] min-w-[165px] aspect-square shadow  rounded-lg overflow-hidden">
-            <img src="/profile.jpg" className="w-full h-full object-cover" />
+            <img src="/profile1.jpg" className="w-full h-full object-cover" />
           </div>
           <div className={`flex flex-col justify-between w-full text-light mt-[-.35rem]`}>
             <div className={`text-4xl space-x-2 text-light tracking-widest`}>
@@ -45,7 +55,7 @@ const App = () => {
         </div>
         {/* Profile */}
         <Container title="Profil">
-            <p>{profile}</p>
+          <p>{profile}</p>
         </Container>
         {/* Formation */}
         <Container title="Formation">
@@ -82,7 +92,7 @@ const App = () => {
         </Container>
         {/* Grid */}
         {/* Competencies */}
-        <Container title="Compétences">
+        {/* <Container title="Compétences">
           <div className="">
             <ul className="list-disc ml-4 space-y-1">
               {competencies.map((competence) => (
@@ -90,7 +100,7 @@ const App = () => {
               ))}
             </ul>
           </div>
-        </Container>
+        </Container> */}
 
         {/* Languages */}
         <Container title="Linguistique">{languages}</Container>
