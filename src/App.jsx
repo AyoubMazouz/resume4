@@ -1,5 +1,5 @@
 import React from "react"
-import { competencies, details, education, experiences, fullName, languages, title } from "./constants"
+import { competencies, details, education, experiences, fullName, languages, title, internships, profile } from "./constants"
 import { Icon } from "@iconify/react"
 
 const Container = ({ title, children }) => {
@@ -43,6 +43,10 @@ const App = () => {
             </div>
           </div>
         </div>
+        {/* Profile */}
+        <Container title="Profil">
+            <p>{profile}</p>
+        </Container>
         {/* Formation */}
         <Container title="Formation">
           <div className="space-y-4">
@@ -61,6 +65,17 @@ const App = () => {
               <div key={experience[1]} className="grid grid-cols-12">
                 <span className="col-span-3">{experience[0]}</span>
                 <span className="col-span-9">{experience[1]}</span>
+              </div>
+            ))}
+          </div>
+        </Container>
+        {/* Internships */}
+        <Container title="Stages">
+          <div className="space-y-4">
+            {internships?.map((internship) => (
+              <div key={internship[1]} className="grid grid-cols-12">
+                <span className="col-span-3">{internship[0]}</span>
+                <span className="col-span-9">{internship[1]}</span>
               </div>
             ))}
           </div>
