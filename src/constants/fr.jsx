@@ -11,7 +11,10 @@ export const education = [
   ["2024 - 2026", <>Diplôme de technicien en diagnostic Et Électronique Embarquée au centre ISTA Lissasfa (OFPPT)</>],
 ]
 
-export const experiences = [["2018 – 2024", <>J'ai travaillé dans une épicerie pendant les étés 2018 - 2024</>]]
+export const experiences = [
+  ["2024 – à présent", <>Stage - Expérience professionnelle au sein de la société Autohall, site de Lalla Yacout.</>],
+  ["2018 – 2024", <>J'ai travaillé dans une épicerie pendant les étés 2018 - 2024</>],
+]
 
 export const languages = (
   <ul className="list-disc list-inside">
