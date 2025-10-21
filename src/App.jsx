@@ -29,7 +29,7 @@ const App = () => {
         {/* Header */}
         <div className="flex gap-x-4 bg-primary p-4  bg-[url('/herobg.png')] bg-cover bg-center">
           <div className="h-[165px] min-w-[165px] aspect-square shadow  rounded-lg overflow-hidden">
-            <img src="/profile1.jpg" className="w-full h-full object-cover" />
+            <img src="/profile.jpeg" className="w-full h-full object-cover" />
           </div>
           <div className={`flex flex-col justify-between w-full text-light mt-[-.35rem]`}>
             <div className={`text-4xl space-x-2 text-light tracking-widest`}>
