@@ -12,7 +12,7 @@ export const education = [
 ]
 
 export const experiences = [
-  ["2024 – à présent", <>Stage - Expérience professionnelle au sein de la société Autohall, site de Lalla Yacout.</>],
+  ["Jan – Mars 2024", <>Stage - Expérience professionnelle au sein de la société Autohall, site de Lalla Yacout.</>],
   ["2018 – 2024", <>J'ai travaillé dans une épicerie pendant les étés 2018 - 2024</>],
 ]
 
