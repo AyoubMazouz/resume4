@@ -62,8 +62,21 @@ export const experiences = [
       </div>
       <ul className="list-disc ml-12 space-y-2">
         <li>
-          Transition vers un rôle d'ingénieur DevOps tout en continuant à développer le{" "}
-          <b>module de transport pour Nawrass.</b>
+          <ul>
+            <li>
+              Parmi les tâches quotidiennes d’un ingénieur DevOps, je travaille également sur des projets à long terme
+              tels que :
+            </li>
+            <li>
+              Le projet de supervision, qui nous a permis de surveiller les serveurs, les applications, les services et
+              les bases de données.
+            </li>
+            <li>
+              La mise en place d’un pipeline DevSecOps, qui nous permet d’analyser les applications de manière statique
+              et dynamique, ainsi que d’aborder d’autres aspects de la sécurité.
+            </li>
+            <li>Et bien d’autres projets encore.</li>
+          </ul>
         </li>
       </ul>
     </>,
@@ -122,14 +135,14 @@ export const experiences = [
     </>,
   ],
   [
-    <span className="flex gap-2">
+    <span className="flex gap-2  mt-16">
       <div className="w-7">Mai</div>
       <span>-</span>
       <div className="w-8">Jul</div>
       <span>2024</span>
     </span>,
     <>
-      <div className="font-semibold underline mb-1">
+      <div className="font-semibold underline mb-1 mt-16">
         Stage : Développeur Fullstack & DevOps chez{" "}
         <a href="https://valhko.com">
           <span className="font-bold italic">Valhko</span>
@@ -145,14 +158,14 @@ export const experiences = [
     </>,
   ],
   [
-    <span className="flex gap-2 mt-16">
+    <span className="flex gap-2">
       <div className="w-7">Fév</div>
       <span>-</span>
       <div className="w-8">Avr</div>
       <span>2024</span>
     </span>,
     <>
-      <div className="font-semibold underline mb-1 mt-16">
+      <div className="font-semibold underline mb-1">
         Stage : Développeur Fullstack chez{" "}
         <a href="https://rivertech.ma">
           <span className="font-bold italic">Rivertech</span>
