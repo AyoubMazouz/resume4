@@ -29,7 +29,10 @@ const App = () => {
                 <span className="font-black">{fullName[0]}</span>
                 <span className="font-light">{fullName[1]}</span>
               </div>
-              <div className={`text-xl text-secondary tracking-[.3rem] uppercase`}>{title}</div>
+              <div className={`text-xl text-secondary tracking-[.25rem] uppercase`}>
+                Ingénieur DevOps /<br />
+                Ingénieur Etudes et Développement
+              </div>
             </div>
             <div className="grid grid-cols-3 gap-1 text-sm">
               <div className={`bg-light flex items-center gap-x-2 rounded px-2 py-1 text-primary`}>

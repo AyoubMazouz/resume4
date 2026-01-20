@@ -599,10 +599,6 @@ video {
   margin-top: 0.5rem;
 }
 
-.mt-28{
-  margin-top: 7rem;
-}
-
 .mt-4{
   margin-top: 1rem;
 }
@@ -878,10 +874,6 @@ video {
   padding-bottom: 1.5rem;
 }
 
-.pt-20{
-  padding-top: 5rem;
-}
-
 .pt-16{
   padding-top: 4rem;
 }
@@ -954,8 +946,8 @@ video {
   line-height: 1.3rem;
 }
 
-.tracking-\[\.3rem\]{
-  letter-spacing: .3rem;
+.tracking-\[\.25rem\]{
+  letter-spacing: .25rem;
 }
 
 .tracking-wider{

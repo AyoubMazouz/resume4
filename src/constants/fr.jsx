@@ -236,4 +236,11 @@ export const competencies = [
   <p>
     Fortes <b>compétences organisationnelles</b> et attention aux détails.
   </p>,
+  <p>
+    Fortes <b>compétences organisationnelles</b> et attention aux détails.
+  </p>,
+  <p>
+    Maîtrise de <b>Spring Boot</b>, <b>ASP.NET</b>, <b>Angular</b>, <b>React</b>, <b>Postgres</b>, <b>MongoDB</b> et{" "}
+    <b>Redis</b>.
+  </p>,
 ]
