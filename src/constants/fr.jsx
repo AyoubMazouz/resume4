@@ -4,7 +4,7 @@ export const linkedinURL = "https://www.linkedin.com/in/ayoubmazouz/"
 export const githubURL = "https://github.com/ayoubmazouz"
 
 export const fullName = ["Mazouz", "Ayoub"]
-export const title = "Ingénieur DevSecOps"
+export const title = "Ingénieur DevOps | Ingénieur Etudes et Développement"
 export const emailAddress = "ayoub.mazouz@outlook.com"
 export const phoneNumber = "07 70 75 91 06"
 export const details = [
@@ -16,9 +16,22 @@ export const details = [
 
 export const education = [
   [
+    <span className="flex gap-2">2025</span>,
+    <p>
+      <b>Certifié Scrum Master (CSM) par Oriensys Solutions.</b>
+    </p>,
+  ],
+  [
+    <span className="flex gap-2">2025 - 2026</span>,
+    <p>
+      <b>Master en Génie Logiciel</b> à Supemir — École Supérieure d'Ingénierie et de Management, Casablanca.
+    </p>,
+  ],
+  [
     <span className="flex gap-2">2024</span>,
     <p>
       <b>Certifié en sécurité OWASP (Secure Coding - Secure Application Development)</b> par Oriensys Solutions.
+      <br />
     </p>,
   ],
   [
@@ -31,12 +44,6 @@ export const education = [
     "2021 - 2023",
     <>
       <b>Technicien Spécialisé en Infrastructure Informatique</b> à l'ISFO (OFPPT) à Casablanca.
-    </>,
-  ],
-  [
-    "2019 - 2020",
-    <>
-      <b>Baccalauréat en Sciences de la Vie et de la Terre (SVT)</b> au Lycée Qadi Ayad, Casablanca.
     </>,
   ],
 ]
@@ -57,6 +64,10 @@ export const experiences = [
         </a>
       </div>
       <ul className="list-disc ml-12 space-y-2">
+        <li>
+          Développement d'une plateforme de formation en ligne sur mesure, permettant aux entreprises de disposer d'un
+          espace de formation dédié pour leurs collaborateurs.{" "}
+        </li>
         <li>
           Mise en place et gestion d'une solution de <b>monitoring serveur et applicatif</b> avec <b>Prometheus</b> et{" "}
           <b>Grafana</b>.
@@ -98,29 +109,28 @@ export const experiences = [
       </div>
       <ul className="list-disc ml-12 space-y-2">
         <li>
-          Développement d'une <b>application full-stack pour gérer l'assurance des 'Associations de Bain'</b>,
-          remplaçant une version obsolète. La nouvelle application a élargi les fonctionnalités, inclus des aspects de
-          gestion supplémentaires, et a passé l'audit annuel avec une <b>excellente note.</b>.
+          Refonte d'une <b>application full-stack</b> d'assurance pour les 'Associations de Bain' — fonctionnalités
+          étendues, gestion améliorée et réussite de l'audit annuel avec une <b>excellente note</b>.
         </li>
         <li>
           Refactorisation du module de transport dans 'Nawrass', le système principal pour gérer les activités d'
           <b>AFMA.</b>
         </li>
-        <li>
+        <li className="pt-16">
           Développement d'une solution automatisée pour l'échange de données entre <b>Afma et Autohall.</b>
         </li>
       </ul>
     </>,
   ],
   [
-    <span className="flex gap-2 mt-20">
+    <span className="flex gap-2">
       <div className="w-7">Mai</div>
       <span>-</span>
       <div className="w-8">Jul</div>
       <span>2024</span>
     </span>,
     <>
-      <div className="font-semibold underline mb-1 mt-20">
+      <div className="font-semibold underline mb-1">
         Stage : Développeur Fullstack & DevOps chez{" "}
         <a href="https://valhko.com">
           <span className="font-bold italic">Valhko</span>
