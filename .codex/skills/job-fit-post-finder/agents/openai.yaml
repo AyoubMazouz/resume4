@@ -1,0 +1,4 @@
+interface:
+  display_name: "Job Fit Post Finder"
+  short_description: "Find and rank active jobs by resume fit."
+  default_prompt: "Find active jobs matching my resume and rank best fits with key details."

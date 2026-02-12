@@ -1,0 +1,4 @@
+interface:
+  display_name: "Application Tracker"
+  short_description: "Track job applications and stage progress in CSV."
+  default_prompt: "Track this job application in my CSV and update its stage history."

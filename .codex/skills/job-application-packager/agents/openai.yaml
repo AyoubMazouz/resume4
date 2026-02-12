@@ -1,0 +1,4 @@
+interface:
+  display_name: "Job Application Packager"
+  short_description: "Tailor resumes and build full job application dossiers."
+  default_prompt: "Build a tailored EN/FR resume package and company hiring dossier for this selected job post."

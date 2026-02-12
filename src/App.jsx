@@ -19,7 +19,7 @@ const sectionLabels = {
 
 const Container = ({ title, children }) => {
   return (
-    <div className="relative px-5 py-4">
+    <div className="relative px-5 py-4" style={{ breakInside: "auto", pageBreakInside: "auto" }}>
       <div className="px-5 py-1 text-lg border-t border-b border-primary uppercase text-primary font-bold">{title}</div>
       <div className="mt-4">{children}</div>
     </div>
@@ -44,12 +44,16 @@ const ResumePage = ({ lang, isLast }) => {
   const content = getResumeContent(lang)
   const labels = sectionLabels[lang] || sectionLabels.en
   const { competencies, details, education, experiences, fullName, languages, title } = content
+  const pageEdgeBalanceStyle = {
+    boxDecorationBreak: "clone",
+    WebkitBoxDecorationBreak: "clone",
+    paddingTop: "4mm",
+    paddingBottom: "4mm",
+    ...(isLast ? {} : { pageBreakAfter: "always" }),
+  }
 
   return (
-    <div
-      className="w-[210mm] h-[594mm] mx-auto bg-light overflow-hidden mb-6 print:mb-0"
-      style={isLast ? undefined : { pageBreakAfter: "always" }}
-    >
+    <div className="w-[210mm] min-h-[594mm] mx-auto bg-light overflow-visible mb-6 print:mb-0" style={pageEdgeBalanceStyle}>
       <div className="flex gap-x-4 bg-primary p-4 bg-[url('/herobg.png')] bg-cover bg-center">
         <div className="h-[175px] min-w-[175px] aspect-square shadow rounded-lg overflow-hidden">
           <img src="/profile.jpg" alt="Profile" className="w-full h-full object-cover" />
@@ -89,9 +93,13 @@ const ResumePage = ({ lang, isLast }) => {
       </div>
 
       <Container title={labels.education}>
-        <div className="space-y-3">
+        <div className="grid gap-y-3">
           {education?.map((educationItem, index) => (
-            <div key={`edu-${lang}-${index}`} className="grid grid-cols-12">
+            <div
+              key={`edu-${lang}-${index}`}
+              className="grid grid-cols-12"
+              style={{ breakInside: "avoid", pageBreakInside: "avoid" }}
+            >
               <span className="col-span-3">{educationItem[0]}</span>
               <span className="col-span-9 -ml-4">{educationItem[1]}</span>
             </div>
@@ -100,9 +108,13 @@ const ResumePage = ({ lang, isLast }) => {
       </Container>
 
       <Container title={labels.experience}>
-        <div className="space-y-3">
+        <div className="grid gap-y-3">
           {experiences?.map((experienceItem, index) => (
-            <div key={`exp-${lang}-${index}`} className="grid grid-cols-12">
+            <div
+              key={`exp-${lang}-${index}`}
+              className="grid grid-cols-12"
+              style={{ breakInside: "avoid", pageBreakInside: "avoid" }}
+            >
               <span className="col-span-3">{experienceItem[0]}</span>
               <span className="col-span-9 -ml-4">{experienceItem[1]}</span>
             </div>
@@ -114,12 +126,16 @@ const ResumePage = ({ lang, isLast }) => {
         <div className="grid grid-cols-2 gap-4 mb-3">
           <ul className="list-disc ml-4 space-y-1">
             {competencies.slice(0, competencies.length / 2)?.map((competence, index) => (
-              <li key={`comp-left-${lang}-${index}`}>{competence}</li>
+              <li key={`comp-left-${lang}-${index}`} style={{ breakInside: "avoid", pageBreakInside: "avoid" }}>
+                {competence}
+              </li>
             ))}
           </ul>
           <ul className="list-disc ml-4 space-y-1">
             {competencies.slice(competencies.length / 2)?.map((competence, index) => (
-              <li key={`comp-right-${lang}-${index}`}>{competence}</li>
+              <li key={`comp-right-${lang}-${index}`} style={{ breakInside: "avoid", pageBreakInside: "avoid" }}>
+                {competence}
+              </li>
             ))}
           </ul>
         </div>

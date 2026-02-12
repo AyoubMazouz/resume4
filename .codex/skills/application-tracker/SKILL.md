@@ -1,9 +1,9 @@
 ---
-name: job-fit-post-finder
-description: [TODO: Complete and informative explanation of what the skill does and when to use it. Include WHEN to use this skill - specific scenarios, file types, or tasks that trigger it.]
+name: application-tracker
+description: "Track job applications in a single CSV file with URL-based dedupe, stage history columns, and expired-post checks."
 ---
 
-# Job Fit Post Finder
+# Application Tracker
 
 ## Overview
 
