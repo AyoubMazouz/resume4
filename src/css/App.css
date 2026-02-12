@@ -591,10 +591,6 @@ video {
   margin-left: 1rem;
 }
 
-.mt-16{
-  margin-top: 4rem;
-}
-
 .mt-2{
   margin-top: 0.5rem;
 }
@@ -876,6 +872,18 @@ video {
 
 .pt-16{
   padding-top: 4rem;
+}
+
+.pt-32{
+  padding-top: 8rem;
+}
+
+.pt-28{
+  padding-top: 7rem;
+}
+
+.pt-24{
+  padding-top: 6rem;
 }
 
 .text-5xl{

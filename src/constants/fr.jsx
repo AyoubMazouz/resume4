@@ -4,14 +4,14 @@ export const linkedinURL = "https://www.linkedin.com/in/ayoubmazouz/"
 export const githubURL = "https://github.com/ayoubmazouz"
 
 export const fullName = ["Mazouz", "Ayoub"]
-export const title = "Ingénieur DevOps | Ingénieur Etudes et Développement"
+export const title = "Ingénieur Logiciel Full-Stack (Java Spring Boot / React) | Ingénieur DevOps"
 export const emailAddress = "ayoub.mazouz@outlook.com"
-export const phoneNumber = "07 70 75 91 06"
+export const phoneNumber = "+212 7 70 75 91 06"
 export const details = [
-  "07 70 75 91 06",
+  "+212 7 70 75 91 06",
   "ayoub.mazouz@outlook.com",
   "https://ayoubmazouz.com",
-  "Sidi-Maârouf Lot Anna 4, 14_6, Casablanca.",
+  "Casablanca, Maroc",
 ]
 
 export const education = [
@@ -58,7 +58,7 @@ export const experiences = [
     </span>,
     <>
       <div className="font-semibold underline mb-1">
-        Temps plein : Ingénieur DevSecOps chez{" "}
+        Temps plein : Ingénieur DevOps chez{" "}
         <a href="https://ariagroup.io/">
           <span className="font-bold italic">AriaTech (Accolade SA)</span>
         </a>
@@ -66,29 +66,16 @@ export const experiences = [
       <ul className="list-disc ml-12 space-y-2">
         <li>
           Développement d'une plateforme de formation en ligne sur mesure, permettant aux entreprises de disposer d'un
-          espace de formation dédié pour leurs collaborateurs.{" "}
+          espace de formation dédié pour leurs collaborateurs.
         </li>
         <li>
-          Mise en place et gestion d'une solution de <b>monitoring serveur et applicatif</b> avec <b>Prometheus</b> et{" "}
-          <b>Grafana</b>.
+          Mise en place et gestion d'une solution de <b>monitoring serveur et applicatif</b> avec <b>Prometheus</b> et
+          <b>Grafana</b>, avec tableaux de bord et alerting pour la production.
         </li>
         <li>
           Conception et déploiement d'une <b>plateforme DevSecOps</b> pour automatiser la sécurité dans les pipelines
-          <b>(CI/CD) sur GitLab</b>.
-          <li>
-            Intégration d'outils de sécurité pour l'analyse automatisée :
-            <ul className="list-disc ml-12 space-y-2">
-              <li>
-                <b>SAST</b> (Analyse Statique) avec <b>SonarQube</b>.
-              </li>
-              <li>
-                <b>DAST</b> (Analyse Dynamique) avec <b>OWASP ZAP</b>.
-              </li>
-              <li>
-                <b>SCA</b> (Analyse des Dépendances) avec <b>OWASP Dependency-Check</b>.
-              </li>
-            </ul>
-          </li>
+          <b>(CI/CD) sur GitLab</b>, avec intégration de <b>SonarQube (SAST)</b>, <b>OWASP ZAP (DAST)</b> et{" "}
+          <b>OWASP Dependency-Check (SCA)</b> pour des contrôles de vulnérabilités continus.
         </li>
       </ul>
     </>,
@@ -109,28 +96,29 @@ export const experiences = [
       </div>
       <ul className="list-disc ml-12 space-y-2">
         <li>
-          Refonte d'une <b>application full-stack</b> d'assurance pour les 'Associations de Bain' — fonctionnalités
-          étendues, gestion améliorée et réussite de l'audit annuel avec une <b>excellente note</b>.
+          Refonte d'une <b>application full-stack</b> d'assurance pour les 'Associations de Bain' avec évolution des
+          services backend et des workflows de gestion frontend, et réussite de l'audit annuel avec une
+          <b>excellente note</b>.
         </li>
         <li>
           Refactorisation du module de transport dans 'Nawrass', le système principal pour gérer les activités d'
-          <b>AFMA.</b>
+          <b>AFMA</b>, avec amélioration de la maintenabilité et de la vitesse de livraison.
         </li>
-        <li className="pt-16">
-          Développement d'une solution automatisée pour l'échange de données entre <b>Afma et Autohall.</b>
+        <li className="">
+          Développement d'une solution automatisée basée API pour l'échange de données entre <b>AFMA et Autohall.</b>
         </li>
       </ul>
     </>,
   ],
   [
-    <span className="flex gap-2">
+    <span className="flex gap-2 pt-16">
       <div className="w-7">Mai</div>
       <span>-</span>
-      <div className="w-8">Jul</div>
+      <div className="w-8">Juil</div>
       <span>2024</span>
     </span>,
     <>
-      <div className="font-semibold underline mb-1">
+      <div className="font-semibold underline mb-1 pt-16">
         Stage : Développeur Fullstack & DevOps chez{" "}
         <a href="https://valhko.com">
           <span className="font-bold italic">Valhko</span>
@@ -140,7 +128,7 @@ export const experiences = [
         <li>
           <b>Développement d'une plateforme d'actualités alimentée par l'IA</b> centrée sur la finance et les
           investissements sur le continent africain, offrant aux utilisateurs un moyen innovant et accessible de
-          consommer les actualités.
+          consommer les actualités, avec contribution au déploiement et à la fiabilité opérationnelle.
         </li>
       </ul>
     </>,
@@ -195,7 +183,7 @@ export const experiences = [
   ],
   [
     <span className="flex gap-2">
-      <div className="w-7">Jun</div>
+      <div className="w-7">Juin</div>
       <span>-</span>
       <div className="w-8">Août</div>
       <span>2022</span>
@@ -213,34 +201,52 @@ export const experiences = [
 
 export const languages = ["Anglais", "Français", "Arabe"]
 
+export const technicalSkills = [
+  "Java",
+  "Spring Boot",
+  "React.js",
+  "Redux",
+  "Conception et intégration d'API REST",
+  "SQL (PostgreSQL/MySQL)",
+  "Git & GitLab",
+  "Méthodologies Agile/Scrum",
+  "DevOps & DevSecOps",
+  "GitLab CI/CD",
+  "Docker",
+  "Kubernetes (bases)",
+  "Terraform (bases)",
+  "Linux & scripting Bash",
+  "Prometheus",
+  "Grafana",
+  "SonarQube (SAST)",
+  "OWASP ZAP (DAST)",
+  "OWASP Dependency-Check (SCA)",
+  "Monitoring applicatif & alerting",
+  "Intégration et automatisation d'API",
+  "Développement Full-Stack (JavaScript/TypeScript, PHP/Laravel, React)",
+]
+
 export const competencies = [
-  <p>Bonne compréhension des différentes architectures logicielles et des modèles de conception.</p>,
+  <p>Bonne maîtrise des architectures logicielles et des modèles de conception orientés scalabilité.</p>,
   <p>
-    Bon sens de la <b>conception UI et de l'expérience utilisateur</b>.
+    Expérience concrète dans la livraison de fonctionnalités full-stack sur <b>APIs backend</b>, logique métier et UI.
   </p>,
-  <p>Expérience générale et compréhension des différents langages de programmation et frameworks.</p>,
-  <p>Bonne compréhension des normes web et des meilleures pratiques.</p>,
+  <p>Bonne compréhension des patterns <b>backend Java</b> et <b>frontend React</b> pour des applications maintenables.</p>,
+  <p>Bonne compréhension des standards web, des contrats d'API, des tests et des bonnes pratiques de maintenabilité.</p>,
   <p>
-    <b>Apprenant continu</b> et <b>autodidacte</b>.
-  </p>,
-  <p>
-    <b>Écoute active</b> et <b>bonne communication</b>.
+    Capacité à concevoir et optimiser des <b>pipelines CI/CD</b> pour des livraisons fiables et sécurisées.
   </p>,
   <p>
-    Connaissance de la mise en œuvre des{" "}
-    <b>meilleures pratiques de sécurité et des mesures de protection des données</b>.
+    Maîtrise des principes <b>DevSecOps</b>, du secure coding et des contrôles alignés OWASP.
+  </p>,
+  <p>Approche orientée résolution d'incidents production via logs, métriques et observabilité.</p>,
+  <p>
+    <b>Apprenant continu</b>, <b>autodidacte</b> et adaptation rapide aux nouveaux outils.
   </p>,
   <p>
-    Capacité à <b>s'adapter rapidement</b> aux nouvelles technologies.
-  </p>,
-  <p>
-    Fortes <b>compétences organisationnelles</b> et attention aux détails.
+    <b>Écoute active</b> et <b>bonne communication</b> dans des équipes Agile pluridisciplinaires.
   </p>,
   <p>
     Fortes <b>compétences organisationnelles</b> et attention aux détails.
-  </p>,
-  <p>
-    Maîtrise de <b>Spring Boot</b>, <b>ASP.NET</b>, <b>Angular</b>, <b>React</b>, <b>Postgres</b>, <b>MongoDB</b> et{" "}
-    <b>Redis</b>.
   </p>,
 ]
